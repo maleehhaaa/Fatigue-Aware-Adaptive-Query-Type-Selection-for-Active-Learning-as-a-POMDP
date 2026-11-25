@@ -1,0 +1,17 @@
+{
+  "seed": 42,
+  "label_counts": [
+    50,
+    200,
+    500,
+    1000
+  ],
+  "epochs": 200,
+  "learning_rate": 0.05,
+  "weight_decay": 0.01,
+  "batch_size": 64,
+  "weights": "ResNet18_Weights.IMAGENET1K_V1",
+  "feature_normalization": "L2",
+  "acquisition": "nested random order, clean ground-truth labels",
+  "image_split_sha256": "69b06484395291f470cdfc12ad7102bb059215866f09b0ff4af7ef533b4284de"
+}

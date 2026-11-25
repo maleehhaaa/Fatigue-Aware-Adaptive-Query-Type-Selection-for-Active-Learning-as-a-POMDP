@@ -1,0 +1,8 @@
+{
+  "None0": 1.0,
+  "Markov1": 1.5,
+  "Markov2": 1.0,
+  "FALCON1": 3.0,
+  "Lapse1:forced": 1.5,
+  "Lapse1:forced_seconds": 2.0
+}

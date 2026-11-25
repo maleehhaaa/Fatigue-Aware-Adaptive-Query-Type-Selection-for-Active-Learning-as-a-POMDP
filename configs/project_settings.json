@@ -1,0 +1,62 @@
+{
+  "seed": 42,
+  "session_steps": 150,
+  "extra_session_steps": 300,
+  "seed_images": [
+    50,
+    200
+  ],
+  "retrain_every_answers": 10,
+  "uncertain_pool_size": 500,
+  "budgets_seconds": [
+    300,
+    600,
+    1200,
+    2400
+  ],
+  "fatigue_levels": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "beta_grid": [
+    0,
+    0.5,
+    1,
+    2,
+    3
+  ],
+  "lambda_initial": 1.0,
+  "recovery_probability": 0.35,
+  "relative_time": {
+    "skip": 0.1,
+    "verify": 0.35,
+    "two_choice": 0.6,
+    "full": 1.0
+  },
+  "fatigue_increase_probability": {
+    "verify": 0.06,
+    "two_choice": 0.12,
+    "full": 0.25
+  },
+  "annotator_fractions": {
+    "train": 0.6,
+    "validation": 0.2,
+    "test": 0.2
+  },
+  "image_counts_per_class": {
+    "pool": 400,
+    "difficulty_train": 200,
+    "validation": 200,
+    "final_test": 200
+  },
+  "reaction_time_limits_ms": [
+    200,
+    30000
+  ],
+  "minimum_stage1_episodes_per_cell": 500,
+  "minimum_stage2_seeds": 10,
+  "split_origin": "New seed-42 split; original test IDs were not supplied"
+}

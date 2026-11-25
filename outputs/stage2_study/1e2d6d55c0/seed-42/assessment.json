@@ -1,0 +1,21 @@
+{
+  "status": "preliminary Stage-2 development study",
+  "classifier_runs": 1000,
+  "seeds_per_pair": 10,
+  "comparison_groups": 10,
+  "qmdp_positive_average_accuracy_intervals": 0,
+  "qmdp_negative_average_accuracy_intervals": 2,
+  "groups_with_fully_observed_80_percent_target": 2,
+  "groups_with_fully_observed_75_percent_target": 8,
+  "acquired_answers_after_rare_lapse": 130635,
+  "final_test_images_evaluated": false,
+  "test_annotators_evaluated": false,
+  "limitations": [
+    "simulated humans",
+    "development comparisons after provisional selection",
+    "pointwise unadjusted intervals",
+    "600-second shifts and capped practice are assumptions",
+    "full Stage-1 factorial sweep pending",
+    "rare-lapse robustness requires checking realized event coverage"
+  ]
+}

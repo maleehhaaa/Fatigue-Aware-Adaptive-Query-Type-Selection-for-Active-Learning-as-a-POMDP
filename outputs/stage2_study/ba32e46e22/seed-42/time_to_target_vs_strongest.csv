@@ -1,0 +1,11 @@
+model,beta,seed_size,baseline,qmdp_reached,baseline_reached,qmdp_capped_seconds,baseline_capped_seconds,fully_observed_time_saving_percent
+FALCON,1,50,two_choice,1,1,2389.2218758014087,2355.8280685237905,
+FALCON,1,200,verify,2,4,2305.6786292894344,2082.964336011473,
+Lapse,1,50,rest_threshold,0,0,2400.0,2400.0,
+Lapse,1,200,rest_threshold,0,0,2400.0,2400.0,
+Markov,1,50,verify,1,4,2393.2453036179386,2218.9646060609566,
+Markov,1,200,verify,3,3,2319.58539984423,2254.6482491508846,
+Markov,2,50,two_choice,0,0,2400.0,2400.0,
+Markov,2,200,verify,3,5,2215.786992159704,2172.472680790785,
+None,0,50,verify,9,10,1864.1413099331662,1261.8064441324573,
+None,0,200,verify,8,8,2128.1158336937615,1244.777640582342,

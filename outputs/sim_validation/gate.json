@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "checks_file": "outputs/sim_validation/1168458f20/seed-42/validation_checks.csv",
+  "checks": 8,
+  "validation_scope": "internal training-data calibration, coarse tolerances"
+}

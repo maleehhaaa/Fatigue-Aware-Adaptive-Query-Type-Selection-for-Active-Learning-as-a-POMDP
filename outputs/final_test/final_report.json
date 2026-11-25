@@ -1,0 +1,237 @@
+{
+  "stage1": {
+    "h2_markov_falcon_beta_ge_1_holm": {
+      "FALCON": "1/3",
+      "Markov": "16/17"
+    },
+    "all_cases_beating_all_B1_B8_holm_by_family": {
+      "control": "0/2",
+      "core_FALCON": "2/4",
+      "core_Lapse": "0/4",
+      "core_Markov": "4/4",
+      "lapse_seconds": "0/4",
+      "no_fatigue": "0/1",
+      "sensitivity": "11/12",
+      "stress": "2/2"
+    },
+    "h1": {
+      "best_required_baseline": "blind",
+      "qmdp_minus_best": 0.0,
+      "se": 0.0,
+      "within_1_se_or_better": true
+    },
+    "h3_markov": {
+      "qmdp_minus_greedy_beta_0.5_1_2_3": [
+        49.998,
+        45.389,
+        39.796,
+        43.448
+      ],
+      "slope_per_beta": -2.6985332870044934,
+      "slope_ci": [
+        -4.501,
+        -1.025
+      ]
+    },
+    "robustness_beats_greedy_holm": "5/6"
+  },
+  "stage2": {
+    "primary_groups": 12,
+    "qmdp_clearly_better_after_holm": 0,
+    "qmdp_clearly_worse_after_holm": 4,
+    "runs": 2400,
+    "final_test_evaluated": true
+  },
+  "grid": {
+    "h2_rate_beta_ge_1_unadjusted": {
+      "FALCON": "1146/1944",
+      "Lapse": "702/1944",
+      "Markov": "1705/1944"
+    },
+    "qmdp_vs_rivals": {
+      "alternating": {
+        "FALCON": {
+          "clearly_ahead": 1.0,
+          "clearly_behind": 0.0
+        },
+        "Lapse": {
+          "clearly_ahead": 0.997,
+          "clearly_behind": 0.003
+        },
+        "Markov": {
+          "clearly_ahead": 1.0,
+          "clearly_behind": 0.0
+        }
+      },
+      "blind": {
+        "FALCON": {
+          "clearly_ahead": 1.0,
+          "clearly_behind": 0.0
+        },
+        "Lapse": {
+          "clearly_ahead": 0.993,
+          "clearly_behind": 0.0
+        },
+        "Markov": {
+          "clearly_ahead": 1.0,
+          "clearly_behind": 0.0
+        }
+      },
+      "dqn": {
+        "FALCON": {
+          "clearly_ahead": 1.0,
+          "clearly_behind": 0.0
+        },
+        "Lapse": {
+          "clearly_ahead": 0.478,
+          "clearly_behind": 0.459
+        },
+        "Markov": {
+          "clearly_ahead": 1.0,
+          "clearly_behind": 0.0
+        }
+      },
+      "exp_decay": {
+        "FALCON": {
+          "clearly_ahead": 1.0,
+          "clearly_behind": 0.0
+        },
+        "Lapse": {
+          "clearly_ahead": 1.0,
+          "clearly_behind": 0.0
+        },
+        "Markov": {
+          "clearly_ahead": 1.0,
+          "clearly_behind": 0.0
+        }
+      },
+      "full": {
+        "FALCON": {
+          "clearly_ahead": 1.0,
+          "clearly_behind": 0.0
+        },
+        "Lapse": {
+          "clearly_ahead": 1.0,
+          "clearly_behind": 0.0
+        },
+        "Markov": {
+          "clearly_ahead": 1.0,
+          "clearly_behind": 0.0
+        }
+      },
+      "gap_workload": {
+        "FALCON": {
+          "clearly_ahead": 1.0,
+          "clearly_behind": 0.0
+        },
+        "Lapse": {
+          "clearly_ahead": 1.0,
+          "clearly_behind": 0.0
+        },
+        "Markov": {
+          "clearly_ahead": 1.0,
+          "clearly_behind": 0.0
+        }
+      },
+      "grid": {
+        "FALCON": {
+          "clearly_ahead": 1.0,
+          "clearly_behind": 0.0
+        },
+        "Lapse": {
+          "clearly_ahead": 0.945,
+          "clearly_behind": 0.02
+        },
+        "Markov": {
+          "clearly_ahead": 1.0,
+          "clearly_behind": 0.0
+        }
+      },
+      "myopic": {
+        "FALCON": {
+          "clearly_ahead": 1.0,
+          "clearly_behind": 0.0
+        },
+        "Lapse": {
+          "clearly_ahead": 0.775,
+          "clearly_behind": 0.163
+        },
+        "Markov": {
+          "clearly_ahead": 1.0,
+          "clearly_behind": 0.0
+        }
+      },
+      "qmdp_fixed": {
+        "FALCON": {
+          "clearly_ahead": 1.0,
+          "clearly_behind": 0.0
+        },
+        "Lapse": {
+          "clearly_ahead": 0.6,
+          "clearly_behind": 0.307
+        },
+        "Markov": {
+          "clearly_ahead": 0.605,
+          "clearly_behind": 0.052
+        }
+      },
+      "random": {
+        "FALCON": {
+          "clearly_ahead": 1.0,
+          "clearly_behind": 0.0
+        },
+        "Lapse": {
+          "clearly_ahead": 0.997,
+          "clearly_behind": 0.003
+        },
+        "Markov": {
+          "clearly_ahead": 1.0,
+          "clearly_behind": 0.0
+        }
+      },
+      "rest_threshold": {
+        "FALCON": {
+          "clearly_ahead": 1.0,
+          "clearly_behind": 0.0
+        },
+        "Lapse": {
+          "clearly_ahead": 0.676,
+          "clearly_behind": 0.218
+        },
+        "Markov": {
+          "clearly_ahead": 1.0,
+          "clearly_behind": 0.0
+        }
+      },
+      "two_choice": {
+        "FALCON": {
+          "clearly_ahead": 0.965,
+          "clearly_behind": 0.019
+        },
+        "Lapse": {
+          "clearly_ahead": 0.929,
+          "clearly_behind": 0.056
+        },
+        "Markov": {
+          "clearly_ahead": 0.995,
+          "clearly_behind": 0.0
+        }
+      },
+      "verify": {
+        "FALCON": {
+          "clearly_ahead": 0.67,
+          "clearly_behind": 0.104
+        },
+        "Lapse": {
+          "clearly_ahead": 0.354,
+          "clearly_behind": 0.576
+        },
+        "Markov": {
+          "clearly_ahead": 0.895,
+          "clearly_behind": 0.0
+        }
+      }
+    },
+    "note": "descriptive rates; no correction"
+  }
+}

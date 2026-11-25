@@ -1,0 +1,241 @@
+model,beta,seed_size,metric,step,from,to,difference,ci_low,ci_high
+FALCON,1,50,auc_accuracy_percent,pauses added to always-verify,verify,verify_with_qmdp_pause,0.0,0.0,0.0
+FALCON,1,50,auc_accuracy_percent,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,0.0,0.0,0.0
+FALCON,1,50,auc_accuracy_percent,format choice added,qmdp_verify_pause,qmdp,1.133,-0.224,3.075
+FALCON,1,50,auc_accuracy_percent,pausing added inside QMDP,qmdp_no_pause,qmdp,0.0,0.0,0.0
+FALCON,1,50,auc_accuracy_percent,format choice without pausing,verify,qmdp_no_pause,1.133,-0.224,3.075
+FALCON,1,50,auc_accuracy_percent,total,verify,qmdp,1.133,-0.224,3.075
+FALCON,1,50,accuracy_300s,pauses added to always-verify,verify,verify_with_qmdp_pause,0.0,0.0,0.0
+FALCON,1,50,accuracy_300s,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,0.0,0.0,0.0
+FALCON,1,50,accuracy_300s,format choice added,qmdp_verify_pause,qmdp,1.22,-0.75,3.4
+FALCON,1,50,accuracy_300s,pausing added inside QMDP,qmdp_no_pause,qmdp,0.0,0.0,0.0
+FALCON,1,50,accuracy_300s,format choice without pausing,verify,qmdp_no_pause,1.22,-0.75,3.4
+FALCON,1,50,accuracy_300s,total,verify,qmdp,1.22,-0.75,3.4
+FALCON,1,50,accuracy_2400s,pauses added to always-verify,verify,verify_with_qmdp_pause,0.0,0.0,0.0
+FALCON,1,50,accuracy_2400s,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,0.0,0.0,0.0
+FALCON,1,50,accuracy_2400s,format choice added,qmdp_verify_pause,qmdp,1.24,-0.38,3.56
+FALCON,1,50,accuracy_2400s,pausing added inside QMDP,qmdp_no_pause,qmdp,0.0,0.0,0.0
+FALCON,1,50,accuracy_2400s,format choice without pausing,verify,qmdp_no_pause,1.24,-0.38,3.56
+FALCON,1,50,accuracy_2400s,total,verify,qmdp,1.24,-0.38,3.56
+FALCON,1,50,acquired_answers,pauses added to always-verify,verify,verify_with_qmdp_pause,0.0,0.0,0.0
+FALCON,1,50,acquired_answers,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,0.0,0.0,0.0
+FALCON,1,50,acquired_answers,format choice added,qmdp_verify_pause,qmdp,-48.6,-64.3,-33.7
+FALCON,1,50,acquired_answers,pausing added inside QMDP,qmdp_no_pause,qmdp,0.0,0.0,0.0
+FALCON,1,50,acquired_answers,format choice without pausing,verify,qmdp_no_pause,-48.6,-64.3,-33.7
+FALCON,1,50,acquired_answers,total,verify,qmdp,-48.6,-64.3,-33.7
+FALCON,1,200,auc_accuracy_percent,pauses added to always-verify,verify,verify_with_qmdp_pause,0.0,0.0,0.0
+FALCON,1,200,auc_accuracy_percent,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,0.0,0.0,0.0
+FALCON,1,200,auc_accuracy_percent,format choice added,qmdp_verify_pause,qmdp,0.44,-0.034,0.881
+FALCON,1,200,auc_accuracy_percent,pausing added inside QMDP,qmdp_no_pause,qmdp,0.0,0.0,0.0
+FALCON,1,200,auc_accuracy_percent,format choice without pausing,verify,qmdp_no_pause,0.44,-0.034,0.881
+FALCON,1,200,auc_accuracy_percent,total,verify,qmdp,0.44,-0.034,0.881
+FALCON,1,200,accuracy_300s,pauses added to always-verify,verify,verify_with_qmdp_pause,0.0,0.0,0.0
+FALCON,1,200,accuracy_300s,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,0.0,0.0,0.0
+FALCON,1,200,accuracy_300s,format choice added,qmdp_verify_pause,qmdp,0.76,0.09,1.38
+FALCON,1,200,accuracy_300s,pausing added inside QMDP,qmdp_no_pause,qmdp,0.0,0.0,0.0
+FALCON,1,200,accuracy_300s,format choice without pausing,verify,qmdp_no_pause,0.76,0.09,1.38
+FALCON,1,200,accuracy_300s,total,verify,qmdp,0.76,0.09,1.38
+FALCON,1,200,accuracy_2400s,pauses added to always-verify,verify,verify_with_qmdp_pause,0.0,0.0,0.0
+FALCON,1,200,accuracy_2400s,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,0.0,0.0,0.0
+FALCON,1,200,accuracy_2400s,format choice added,qmdp_verify_pause,qmdp,0.51,-0.05,1.0
+FALCON,1,200,accuracy_2400s,pausing added inside QMDP,qmdp_no_pause,qmdp,0.0,0.0,0.0
+FALCON,1,200,accuracy_2400s,format choice without pausing,verify,qmdp_no_pause,0.51,-0.05,1.0
+FALCON,1,200,accuracy_2400s,total,verify,qmdp,0.51,-0.05,1.0
+FALCON,1,200,acquired_answers,pauses added to always-verify,verify,verify_with_qmdp_pause,0.0,0.0,0.0
+FALCON,1,200,acquired_answers,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,0.0,0.0,0.0
+FALCON,1,200,acquired_answers,format choice added,qmdp_verify_pause,qmdp,-20.1,-26.9,-13.6
+FALCON,1,200,acquired_answers,pausing added inside QMDP,qmdp_no_pause,qmdp,0.0,0.0,0.0
+FALCON,1,200,acquired_answers,format choice without pausing,verify,qmdp_no_pause,-20.1,-26.9,-13.6
+FALCON,1,200,acquired_answers,total,verify,qmdp,-20.1,-26.9,-13.6
+Lapse,1,50,auc_accuracy_percent,pauses added to always-verify,verify,verify_with_qmdp_pause,-0.941,-2.332,0.555
+Lapse,1,50,auc_accuracy_percent,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,-0.813,-2.44,0.844
+Lapse,1,50,auc_accuracy_percent,format choice added,qmdp_verify_pause,qmdp,3.421,0.912,6.145
+Lapse,1,50,auc_accuracy_percent,pausing added inside QMDP,qmdp_no_pause,qmdp,-0.388,-1.575,0.747
+Lapse,1,50,auc_accuracy_percent,format choice without pausing,verify,qmdp_no_pause,2.055,0.335,4.309
+Lapse,1,50,auc_accuracy_percent,total,verify,qmdp,1.667,-0.888,4.515
+Lapse,1,50,accuracy_300s,pauses added to always-verify,verify,verify_with_qmdp_pause,0.05,-1.22,1.43
+Lapse,1,50,accuracy_300s,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,-0.26,-1.8,1.16
+Lapse,1,50,accuracy_300s,format choice added,qmdp_verify_pause,qmdp,3.89,1.74,6.82
+Lapse,1,50,accuracy_300s,pausing added inside QMDP,qmdp_no_pause,qmdp,1.74,0.44,2.85
+Lapse,1,50,accuracy_300s,format choice without pausing,verify,qmdp_no_pause,1.94,0.31,4.1
+Lapse,1,50,accuracy_300s,total,verify,qmdp,3.68,1.28,6.35
+Lapse,1,50,accuracy_2400s,pauses added to always-verify,verify,verify_with_qmdp_pause,-1.35,-3.6,1.07
+Lapse,1,50,accuracy_2400s,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,-1.48,-3.73,0.95
+Lapse,1,50,accuracy_2400s,format choice added,qmdp_verify_pause,qmdp,2.93,-0.49,6.39
+Lapse,1,50,accuracy_2400s,pausing added inside QMDP,qmdp_no_pause,qmdp,-3.07,-4.97,-0.92
+Lapse,1,50,accuracy_2400s,format choice without pausing,verify,qmdp_no_pause,3.17,0.88,5.68
+Lapse,1,50,accuracy_2400s,total,verify,qmdp,0.1,-3.12,3.83
+Lapse,1,50,acquired_answers,pauses added to always-verify,verify,verify_with_qmdp_pause,257.6,116.198,410.002
+Lapse,1,50,acquired_answers,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,-55.3,-148.707,37.505
+Lapse,1,50,acquired_answers,format choice added,qmdp_verify_pause,qmdp,-23.3,-104.41,60.708
+Lapse,1,50,acquired_answers,pausing added inside QMDP,qmdp_no_pause,qmdp,293.6,166.992,418.705
+Lapse,1,50,acquired_answers,format choice without pausing,verify,qmdp_no_pause,-114.6,-170.002,-62.0
+Lapse,1,50,acquired_answers,total,verify,qmdp,179.0,64.898,292.218
+Lapse,1,200,auc_accuracy_percent,pauses added to always-verify,verify,verify_with_qmdp_pause,-1.188,-2.111,-0.23
+Lapse,1,200,auc_accuracy_percent,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,0.186,-0.64,1.01
+Lapse,1,200,auc_accuracy_percent,format choice added,qmdp_verify_pause,qmdp,-0.334,-0.959,0.355
+Lapse,1,200,auc_accuracy_percent,pausing added inside QMDP,qmdp_no_pause,qmdp,-0.949,-1.767,-0.206
+Lapse,1,200,auc_accuracy_percent,format choice without pausing,verify,qmdp_no_pause,-0.386,-1.156,0.328
+Lapse,1,200,auc_accuracy_percent,total,verify,qmdp,-1.336,-2.113,-0.488
+Lapse,1,200,accuracy_300s,pauses added to always-verify,verify,verify_with_qmdp_pause,0.19,-0.52,0.88
+Lapse,1,200,accuracy_300s,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,-0.15,-1.31,0.85
+Lapse,1,200,accuracy_300s,format choice added,qmdp_verify_pause,qmdp,-0.83,-1.42,-0.31
+Lapse,1,200,accuracy_300s,pausing added inside QMDP,qmdp_no_pause,qmdp,-0.72,-1.3,-0.09
+Lapse,1,200,accuracy_300s,format choice without pausing,verify,qmdp_no_pause,-0.07,-0.98,0.73
+Lapse,1,200,accuracy_300s,total,verify,qmdp,-0.79,-1.19,-0.44
+Lapse,1,200,accuracy_2400s,pauses added to always-verify,verify,verify_with_qmdp_pause,-2.14,-3.55,-0.77
+Lapse,1,200,accuracy_2400s,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,-0.03,-1.76,1.34
+Lapse,1,200,accuracy_2400s,format choice added,qmdp_verify_pause,qmdp,-0.72,-1.97,0.4
+Lapse,1,200,accuracy_2400s,pausing added inside QMDP,qmdp_no_pause,qmdp,-2.69,-4.25,-1.24
+Lapse,1,200,accuracy_2400s,format choice without pausing,verify,qmdp_no_pause,-0.2,-1.17,0.76
+Lapse,1,200,accuracy_2400s,total,verify,qmdp,-2.89,-4.54,-1.33
+Lapse,1,200,acquired_answers,pauses added to always-verify,verify,verify_with_qmdp_pause,256.9,151.39,375.113
+Lapse,1,200,acquired_answers,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,4.9,-88.0,131.408
+Lapse,1,200,acquired_answers,format choice added,qmdp_verify_pause,qmdp,-31.3,-120.6,62.305
+Lapse,1,200,acquired_answers,pausing added inside QMDP,qmdp_no_pause,qmdp,248.6,121.992,387.105
+Lapse,1,200,acquired_answers,format choice without pausing,verify,qmdp_no_pause,-18.1,-44.902,5.7
+Lapse,1,200,acquired_answers,total,verify,qmdp,230.5,101.082,374.81
+Markov,1,50,auc_accuracy_percent,pauses added to always-verify,verify,verify_with_qmdp_pause,0.84,0.122,1.531
+Markov,1,50,auc_accuracy_percent,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,0.197,-0.57,1.016
+Markov,1,50,auc_accuracy_percent,format choice added,qmdp_verify_pause,qmdp,0.701,-0.942,3.286
+Markov,1,50,auc_accuracy_percent,pausing added inside QMDP,qmdp_no_pause,qmdp,0.919,0.001,1.816
+Markov,1,50,auc_accuracy_percent,format choice without pausing,verify,qmdp_no_pause,0.819,-0.666,3.258
+Markov,1,50,auc_accuracy_percent,total,verify,qmdp,1.738,-0.012,4.175
+Markov,1,50,accuracy_300s,pauses added to always-verify,verify,verify_with_qmdp_pause,0.99,-0.48,2.33
+Markov,1,50,accuracy_300s,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,0.85,-0.72,2.32
+Markov,1,50,accuracy_300s,format choice added,qmdp_verify_pause,qmdp,0.15,-2.41,3.11
+Markov,1,50,accuracy_300s,pausing added inside QMDP,qmdp_no_pause,qmdp,1.9,-0.131,3.62
+Markov,1,50,accuracy_300s,format choice without pausing,verify,qmdp_no_pause,0.09,-1.57,2.31
+Markov,1,50,accuracy_300s,total,verify,qmdp,1.99,-0.81,5.02
+Markov,1,50,accuracy_2400s,pauses added to always-verify,verify,verify_with_qmdp_pause,-0.06,-0.93,0.66
+Markov,1,50,accuracy_2400s,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,0.07,-0.6,0.82
+Markov,1,50,accuracy_2400s,format choice added,qmdp_verify_pause,qmdp,0.93,-0.62,3.32
+Markov,1,50,accuracy_2400s,pausing added inside QMDP,qmdp_no_pause,qmdp,0.15,-0.65,1.04
+Markov,1,50,accuracy_2400s,format choice without pausing,verify,qmdp_no_pause,0.79,-0.81,3.37
+Markov,1,50,accuracy_2400s,total,verify,qmdp,0.94,-0.59,3.24
+Markov,1,50,acquired_answers,pauses added to always-verify,verify,verify_with_qmdp_pause,338.2,217.392,466.605
+Markov,1,50,acquired_answers,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,-81.4,-124.605,-34.997
+Markov,1,50,acquired_answers,format choice added,qmdp_verify_pause,qmdp,-81.0,-182.918,27.403
+Markov,1,50,acquired_answers,pausing added inside QMDP,qmdp_no_pause,qmdp,257.4,91.878,433.71
+Markov,1,50,acquired_answers,format choice without pausing,verify,qmdp_no_pause,-81.6,-164.1,-0.897
+Markov,1,50,acquired_answers,total,verify,qmdp,175.8,7.6,352.125
+Markov,1,200,auc_accuracy_percent,pauses added to always-verify,verify,verify_with_qmdp_pause,0.509,0.158,0.894
+Markov,1,200,auc_accuracy_percent,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,-0.213,-0.663,0.165
+Markov,1,200,auc_accuracy_percent,format choice added,qmdp_verify_pause,qmdp,0.009,-0.452,0.495
+Markov,1,200,auc_accuracy_percent,pausing added inside QMDP,qmdp_no_pause,qmdp,0.296,-0.003,0.578
+Markov,1,200,auc_accuracy_percent,format choice without pausing,verify,qmdp_no_pause,0.009,-0.367,0.353
+Markov,1,200,auc_accuracy_percent,total,verify,qmdp,0.305,-0.06,0.658
+Markov,1,200,accuracy_300s,pauses added to always-verify,verify,verify_with_qmdp_pause,0.97,0.49,1.48
+Markov,1,200,accuracy_300s,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,-0.56,-1.53,0.29
+Markov,1,200,accuracy_300s,format choice added,qmdp_verify_pause,qmdp,-0.13,-0.81,0.61
+Markov,1,200,accuracy_300s,pausing added inside QMDP,qmdp_no_pause,qmdp,0.09,-0.67,0.77
+Markov,1,200,accuracy_300s,format choice without pausing,verify,qmdp_no_pause,0.19,-0.25,0.64
+Markov,1,200,accuracy_300s,total,verify,qmdp,0.28,-0.46,1.0
+Markov,1,200,accuracy_2400s,pauses added to always-verify,verify,verify_with_qmdp_pause,-0.18,-0.75,0.33
+Markov,1,200,accuracy_2400s,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,0.24,-0.31,0.77
+Markov,1,200,accuracy_2400s,format choice added,qmdp_verify_pause,qmdp,0.18,-0.66,0.89
+Markov,1,200,accuracy_2400s,pausing added inside QMDP,qmdp_no_pause,qmdp,-0.01,-0.56,0.63
+Markov,1,200,accuracy_2400s,format choice without pausing,verify,qmdp_no_pause,0.25,-0.4,0.89
+Markov,1,200,accuracy_2400s,total,verify,qmdp,0.24,-0.44,0.94
+Markov,1,200,acquired_answers,pauses added to always-verify,verify,verify_with_qmdp_pause,219.6,100.998,336.513
+Markov,1,200,acquired_answers,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,-65.4,-173.918,64.103
+Markov,1,200,acquired_answers,format choice added,qmdp_verify_pause,qmdp,42.0,-47.402,135.608
+Markov,1,200,acquired_answers,pausing added inside QMDP,qmdp_no_pause,qmdp,203.2,82.1,331.9
+Markov,1,200,acquired_answers,format choice without pausing,verify,qmdp_no_pause,-7.0,-55.4,38.4
+Markov,1,200,acquired_answers,total,verify,qmdp,196.2,73.595,329.808
+Markov,2,50,auc_accuracy_percent,pauses added to always-verify,verify,verify_with_qmdp_pause,1.76,1.124,2.472
+Markov,2,50,auc_accuracy_percent,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,-0.068,-0.799,0.558
+Markov,2,50,auc_accuracy_percent,format choice added,qmdp_verify_pause,qmdp,1.134,-0.282,3.466
+Markov,2,50,auc_accuracy_percent,pausing added inside QMDP,qmdp_no_pause,qmdp,1.707,0.606,2.902
+Markov,2,50,auc_accuracy_percent,format choice without pausing,verify,qmdp_no_pause,1.12,0.058,2.526
+Markov,2,50,auc_accuracy_percent,total,verify,qmdp,2.827,1.29,5.08
+Markov,2,50,accuracy_300s,pauses added to always-verify,verify,verify_with_qmdp_pause,1.71,0.94,2.63
+Markov,2,50,accuracy_300s,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,-0.79,-2.32,0.83
+Markov,2,50,accuracy_300s,format choice added,qmdp_verify_pause,qmdp,2.24,-0.6,5.8
+Markov,2,50,accuracy_300s,pausing added inside QMDP,qmdp_no_pause,qmdp,3.8,0.67,7.42
+Markov,2,50,accuracy_300s,format choice without pausing,verify,qmdp_no_pause,-0.64,-2.23,0.87
+Markov,2,50,accuracy_300s,total,verify,qmdp,3.16,1.09,5.86
+Markov,2,50,accuracy_2400s,pauses added to always-verify,verify,verify_with_qmdp_pause,0.96,-0.0,2.13
+Markov,2,50,accuracy_2400s,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,0.07,-0.82,0.97
+Markov,2,50,accuracy_2400s,format choice added,qmdp_verify_pause,qmdp,0.7,-0.84,2.93
+Markov,2,50,accuracy_2400s,pausing added inside QMDP,qmdp_no_pause,qmdp,-0.26,-1.02,0.43
+Markov,2,50,accuracy_2400s,format choice without pausing,verify,qmdp_no_pause,1.99,0.57,4.11
+Markov,2,50,accuracy_2400s,total,verify,qmdp,1.73,0.16,3.9
+Markov,2,50,acquired_answers,pauses added to always-verify,verify,verify_with_qmdp_pause,349.7,224.495,488.602
+Markov,2,50,acquired_answers,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,-19.5,-127.832,81.602
+Markov,2,50,acquired_answers,format choice added,qmdp_verify_pause,qmdp,-63.5,-167.305,65.713
+Markov,2,50,acquired_answers,pausing added inside QMDP,qmdp_no_pause,qmdp,299.0,186.9,427.202
+Markov,2,50,acquired_answers,format choice without pausing,verify,qmdp_no_pause,-32.3,-71.2,10.203
+Markov,2,50,acquired_answers,total,verify,qmdp,266.7,137.688,418.718
+Markov,2,200,auc_accuracy_percent,pauses added to always-verify,verify,verify_with_qmdp_pause,0.461,-0.044,0.963
+Markov,2,200,auc_accuracy_percent,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,0.124,-0.231,0.459
+Markov,2,200,auc_accuracy_percent,format choice added,qmdp_verify_pause,qmdp,0.087,-0.602,0.85
+Markov,2,200,auc_accuracy_percent,pausing added inside QMDP,qmdp_no_pause,qmdp,0.618,0.055,1.172
+Markov,2,200,auc_accuracy_percent,format choice without pausing,verify,qmdp_no_pause,0.055,-0.414,0.537
+Markov,2,200,auc_accuracy_percent,total,verify,qmdp,0.672,-0.113,1.427
+Markov,2,200,accuracy_300s,pauses added to always-verify,verify,verify_with_qmdp_pause,0.25,-0.16,0.66
+Markov,2,200,accuracy_300s,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,-0.33,-0.98,0.27
+Markov,2,200,accuracy_300s,format choice added,qmdp_verify_pause,qmdp,0.94,-0.46,2.25
+Markov,2,200,accuracy_300s,pausing added inside QMDP,qmdp_no_pause,qmdp,0.91,0.1,1.7
+Markov,2,200,accuracy_300s,format choice without pausing,verify,qmdp_no_pause,-0.05,-0.62,0.57
+Markov,2,200,accuracy_300s,total,verify,qmdp,0.86,-0.38,2.02
+Markov,2,200,accuracy_2400s,pauses added to always-verify,verify,verify_with_qmdp_pause,0.22,-0.46,0.97
+Markov,2,200,accuracy_2400s,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,0.15,-0.67,0.93
+Markov,2,200,accuracy_2400s,format choice added,qmdp_verify_pause,qmdp,-0.1,-0.87,0.78
+Markov,2,200,accuracy_2400s,pausing added inside QMDP,qmdp_no_pause,qmdp,0.44,-0.14,1.05
+Markov,2,200,accuracy_2400s,format choice without pausing,verify,qmdp_no_pause,-0.17,-0.86,0.52
+Markov,2,200,accuracy_2400s,total,verify,qmdp,0.27,-0.48,1.11
+Markov,2,200,acquired_answers,pauses added to always-verify,verify,verify_with_qmdp_pause,335.7,220.192,469.302
+Markov,2,200,acquired_answers,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,-53.1,-140.302,45.418
+Markov,2,200,acquired_answers,format choice added,qmdp_verify_pause,qmdp,-56.3,-163.4,54.71
+Markov,2,200,acquired_answers,pausing added inside QMDP,qmdp_no_pause,qmdp,210.0,118.1,302.505
+Markov,2,200,acquired_answers,format choice without pausing,verify,qmdp_no_pause,16.3,-8.1,44.905
+Markov,2,200,acquired_answers,total,verify,qmdp,226.3,137.2,318.302
+None,0,50,auc_accuracy_percent,pauses added to always-verify,verify,verify_with_qmdp_pause,0.0,0.0,0.0
+None,0,50,auc_accuracy_percent,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,0.0,0.0,0.0
+None,0,50,auc_accuracy_percent,format choice added,qmdp_verify_pause,qmdp,0.611,-0.045,1.459
+None,0,50,auc_accuracy_percent,pausing added inside QMDP,qmdp_no_pause,qmdp,0.0,0.0,0.0
+None,0,50,auc_accuracy_percent,format choice without pausing,verify,qmdp_no_pause,0.611,-0.045,1.459
+None,0,50,auc_accuracy_percent,total,verify,qmdp,0.611,-0.045,1.459
+None,0,50,accuracy_300s,pauses added to always-verify,verify,verify_with_qmdp_pause,0.0,0.0,0.0
+None,0,50,accuracy_300s,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,0.0,0.0,0.0
+None,0,50,accuracy_300s,format choice added,qmdp_verify_pause,qmdp,-0.99,-2.76,0.88
+None,0,50,accuracy_300s,pausing added inside QMDP,qmdp_no_pause,qmdp,0.0,0.0,0.0
+None,0,50,accuracy_300s,format choice without pausing,verify,qmdp_no_pause,-0.99,-2.76,0.88
+None,0,50,accuracy_300s,total,verify,qmdp,-0.99,-2.76,0.88
+None,0,50,accuracy_2400s,pauses added to always-verify,verify,verify_with_qmdp_pause,0.0,0.0,0.0
+None,0,50,accuracy_2400s,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,0.0,0.0,0.0
+None,0,50,accuracy_2400s,format choice added,qmdp_verify_pause,qmdp,1.55,1.08,2.12
+None,0,50,accuracy_2400s,pausing added inside QMDP,qmdp_no_pause,qmdp,0.0,0.0,0.0
+None,0,50,accuracy_2400s,format choice without pausing,verify,qmdp_no_pause,1.55,1.08,2.12
+None,0,50,accuracy_2400s,total,verify,qmdp,1.55,1.08,2.12
+None,0,50,acquired_answers,pauses added to always-verify,verify,verify_with_qmdp_pause,0.0,0.0,0.0
+None,0,50,acquired_answers,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,0.0,0.0,0.0
+None,0,50,acquired_answers,format choice added,qmdp_verify_pause,qmdp,-508.6,-690.705,-305.395
+None,0,50,acquired_answers,pausing added inside QMDP,qmdp_no_pause,qmdp,0.0,0.0,0.0
+None,0,50,acquired_answers,format choice without pausing,verify,qmdp_no_pause,-508.6,-690.705,-305.395
+None,0,50,acquired_answers,total,verify,qmdp,-508.6,-690.705,-305.395
+None,0,200,auc_accuracy_percent,pauses added to always-verify,verify,verify_with_qmdp_pause,0.0,0.0,0.0
+None,0,200,auc_accuracy_percent,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,0.0,0.0,0.0
+None,0,200,auc_accuracy_percent,format choice added,qmdp_verify_pause,qmdp,0.167,-0.121,0.469
+None,0,200,auc_accuracy_percent,pausing added inside QMDP,qmdp_no_pause,qmdp,0.0,0.0,0.0
+None,0,200,auc_accuracy_percent,format choice without pausing,verify,qmdp_no_pause,0.167,-0.121,0.469
+None,0,200,auc_accuracy_percent,total,verify,qmdp,0.167,-0.121,0.469
+None,0,200,accuracy_300s,pauses added to always-verify,verify,verify_with_qmdp_pause,0.0,0.0,0.0
+None,0,200,accuracy_300s,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,0.0,0.0,0.0
+None,0,200,accuracy_300s,format choice added,qmdp_verify_pause,qmdp,-0.33,-1.01,0.43
+None,0,200,accuracy_300s,pausing added inside QMDP,qmdp_no_pause,qmdp,0.0,0.0,0.0
+None,0,200,accuracy_300s,format choice without pausing,verify,qmdp_no_pause,-0.33,-1.01,0.43
+None,0,200,accuracy_300s,total,verify,qmdp,-0.33,-1.01,0.43
+None,0,200,accuracy_2400s,pauses added to always-verify,verify,verify_with_qmdp_pause,0.0,0.0,0.0
+None,0,200,accuracy_2400s,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,0.0,0.0,0.0
+None,0,200,accuracy_2400s,format choice added,qmdp_verify_pause,qmdp,1.2,0.75,1.68
+None,0,200,accuracy_2400s,pausing added inside QMDP,qmdp_no_pause,qmdp,0.0,0.0,0.0
+None,0,200,accuracy_2400s,format choice without pausing,verify,qmdp_no_pause,1.2,0.75,1.68
+None,0,200,accuracy_2400s,total,verify,qmdp,1.2,0.75,1.68
+None,0,200,acquired_answers,pauses added to always-verify,verify,verify_with_qmdp_pause,0.0,0.0,0.0
+None,0,200,acquired_answers,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,0.0,0.0,0.0
+None,0,200,acquired_answers,format choice added,qmdp_verify_pause,qmdp,-346.2,-515.51,-167.8
+None,0,200,acquired_answers,pausing added inside QMDP,qmdp_no_pause,qmdp,0.0,0.0,0.0
+None,0,200,acquired_answers,format choice without pausing,verify,qmdp_no_pause,-346.2,-515.51,-167.8
+None,0,200,acquired_answers,total,verify,qmdp,-346.2,-515.51,-167.8

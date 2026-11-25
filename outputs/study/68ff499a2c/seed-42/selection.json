@@ -1,0 +1,8 @@
+{
+  "controller": "qmdp",
+  "status": "provisional initial-study choice",
+  "completed_conditions": 28,
+  "full_grid_conditions": 7812,
+  "test_annotators_evaluated": false,
+  "final_test_images_evaluated": false
+}

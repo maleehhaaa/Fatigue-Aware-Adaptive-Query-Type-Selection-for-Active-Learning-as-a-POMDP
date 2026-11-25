@@ -1,0 +1,5 @@
+{
+  "seed": 42,
+  "scope": "training people; development images",
+  "validation": "full labels; no fatigue effect; rare lapse process enabled"
+}

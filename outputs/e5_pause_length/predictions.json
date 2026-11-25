@@ -1,0 +1,36 @@
+{
+  "basis": "scripts/pause_break_even.py results (outputs/pause_break_even), written before any E5 run",
+  "P1": "QMDP pauses more per Stage-2 run at 5 s than at 10 s, and less at 20 s than at 10 s (rule A).",
+  "P2": "In Stage 2 Markov, QMDP minus always-verify (average accuracy) is larger at 5 s than at 20 s (rule A).",
+  "P3": "At 20 s (rule A), QMDP minus always-verify in Stage 2 Markov falls to about the E3 format-choice range (about 0 to +1.1 points).",
+  "P4": "FALCON (Stage 1): QMDP never pauses at any pause length, so its results do not depend on the length.",
+  "P5": "At 5 s, QMDP still roughly ties tuned greedy-plus-rest in Stage 2 Markov (no clear difference).",
+  "written_utc": "2026-11-21T20:36:49.110750+00:00",
+  "settings": [
+    [
+      "10s_reference",
+      10.0,
+      0.35
+    ],
+    [
+      "5s_A_fixed_per_pause",
+      5.0,
+      0.35
+    ],
+    [
+      "5s_B_fixed_per_second",
+      5.0,
+      0.1938
+    ],
+    [
+      "20s_A_fixed_per_pause",
+      20.0,
+      0.35
+    ],
+    [
+      "20s_B_fixed_per_second",
+      20.0,
+      0.5775
+    ]
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "basis": "Written before any E1b run, from the lambda sweep (outputs/lambda_sweep: answers world, training annotators, seeds 100-109) and the seconds-onset check at lambda = 1 (outputs/lapse_seconds_check, final test).",
+  "decision": "Lambda stays 1.0 whatever the outcome; this is a sensitivity check only.",
+  "P1": "Reproduction, answers world: QMDP average accuracy is higher at lambda 0.25 than at 1.25 (sweep: 74.9 vs 69.3), and QMDP minus always-2-choice is not clearly negative at 0.25 (sweep: about +1.0) but clearly negative at 1.0 (sweep: -3.9).",
+  "P2": "Mechanism, both worlds: QMDP collects more answers, and more answers after the lapse, at lambda 1.25 than at 0.25.",
+  "P3": "Main: QMDP average accuracy falls less from lambda 0.25 to 1.25 in the seconds world than in the answers world (timing the lapse in seconds removes part of the throughput penalty).",
+  "P4": "Main: in the seconds world, QMDP minus its strongest rival (the best of greedy, greedy-plus-rest and fatigue-blind at the same lambda, always-verify and always-2-choice) is higher at lambda 0.25 than at lambda 1.0, i.e. the remaining Lapse loss is partly driven by lambda.",
+  "P5": "Reproduction on other people: at lambda 1.0 in the seconds world, QMDP is behind its strongest rival (development check -1.70, final test -1.84 at 200 labels).",
+  "written_utc": "2026-11-22T15:39:20.994528+00:00",
+  "worlds": {
+    "answers": {
+      "model": "Lapse",
+      "beta": 1,
+      "distribution": "constant",
+      "recovery": 0.35,
+      "signal": 1.0,
+      "verify_time": 0.35,
+      "choice_time": 0.6,
+      "speed": 1.0,
+      "steps": 150,
+      "lam": 1.0,
+      "lapse_dependence": 0.0,
+      "falcon_recovery": false,
+      "fatigue_scale": 0.1,
+      "pause_seconds": 10.0,
+      "lapse_mode": "forced",
+      "lapse_onset_min": 100.0,
+      "lapse_onset_max": 300.0
+    },
+    "seconds": {
+      "model": "Lapse",
+      "beta": 1,
+      "distribution": "constant",
+      "recovery": 0.35,
+      "signal": 1.0,
+      "verify_time": 0.35,
+      "choice_time": 0.6,
+      "speed": 1.0,
+      "steps": 150,
+      "lam": 1.0,
+      "lapse_dependence": 0.0,
+      "falcon_recovery": false,
+      "fatigue_scale": 0.1,
+      "pause_seconds": 10.0,
+      "lapse_mode": "forced_seconds",
+      "lapse_onset_min": 75.0,
+      "lapse_onset_max": 310.0
+    }
+  },
+  "grid": [
+    0.25,
+    0.5,
+    0.625,
+    0.75,
+    0.875,
+    1.0,
+    1.25
+  ],
+  "seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109
+  ],
+  "seed_size": 200,
+  "src_sha256": "9d5b9588c1550a431a1f1c42075e71bebae04210cca85ab7bc2ef9e50d3ae143"
+}

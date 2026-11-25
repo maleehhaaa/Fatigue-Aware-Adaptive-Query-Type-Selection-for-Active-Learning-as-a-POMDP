@@ -1,0 +1,45 @@
+{
+  "scenario": {
+    "model": "Markov",
+    "beta": 1,
+    "distribution": "constant",
+    "recovery": 0.35,
+    "signal": 1.0,
+    "verify_time": 0.35,
+    "choice_time": 0.6,
+    "speed": 1.0,
+    "steps": 150,
+    "lam": 1.0,
+    "lapse_dependence": 0.0,
+    "falcon_recovery": false,
+    "fatigue_scale": 0.1,
+    "pause_seconds": 10.0,
+    "lapse_mode": "forced",
+    "lapse_onset_min": 20.0,
+    "lapse_onset_max": 100.0
+  },
+  "options": {
+    "budgets_seconds": [
+      300,
+      600
+    ],
+    "session_seconds": 600,
+    "retrain_every_answers": 10,
+    "initial_epochs": 200,
+    "update_epochs": 10,
+    "initial_lr": 0.05,
+    "update_lr": 0.01,
+    "targets_percent": [
+      75.0,
+      80.0
+    ],
+    "seed_label_cost": "excluded; identical trusted starting labels within each pair",
+    "session_rule": "fixed 600-human-second shifts; crossing answers censored",
+    "practice_rule": "count answered questions, capped at 200 per annotator",
+    "evaluation": "development validation images and validation annotators only",
+    "selection": "QMDP provisional from Notebook 08; full Stage-1 grid pending",
+    "rest_threshold": 2.0
+  },
+  "seed_size": 200,
+  "seed": 42
+}

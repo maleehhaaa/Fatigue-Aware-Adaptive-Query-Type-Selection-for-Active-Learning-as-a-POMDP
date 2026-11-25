@@ -1,0 +1,33 @@
+{
+  "controller": "qmdp",
+  "h2_beats_all_B1_B8_beta_ge_1": {
+    "FALCON": "1065/1944",
+    "Lapse": "738/1944",
+    "Markov": "1811/1944"
+  },
+  "h3_mean_gap_over_greedy_by_beta": {
+    "FALCON beta=0.5": 129.378,
+    "FALCON beta=1": 129.516,
+    "FALCON beta=2": 128.739,
+    "FALCON beta=3": 126.5,
+    "Lapse beta=0": 0.0,
+    "Lapse beta=0.5": 152.486,
+    "Lapse beta=1": 144.525,
+    "Lapse beta=2": 130.728,
+    "Lapse beta=3": 123.928,
+    "Markov beta=0.5": 195.935,
+    "Markov beta=1": 195.777,
+    "Markov beta=2": 193.614,
+    "Markov beta=3": 192.657
+  },
+  "h3_share_of_settings_where_gap_grows_with_beta": {
+    "FALCON": 0.287,
+    "Markov": 0.231
+  },
+  "h1_no_fatigue_minus_best_required_baseline": {
+    "mean": 0.0,
+    "min": 0.0,
+    "max": 0.0
+  },
+  "note": "Validation people only; pointwise unadjusted intervals; no test annotators or final-test images."
+}

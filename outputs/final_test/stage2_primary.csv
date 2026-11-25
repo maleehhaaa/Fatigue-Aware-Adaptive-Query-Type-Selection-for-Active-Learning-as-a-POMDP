@@ -1,0 +1,13 @@
+setting,seed_size,metric,rival,primary,difference,ci_low,ci_high,p,pairs,p_holm,p_holm_primary_family
+FALCON1,50,auc_accuracy_percent,myopic,True,0.061213,-0.352126,0.504886,0.786287,20,1.0,1.0
+FALCON1,200,auc_accuracy_percent,myopic,True,0.280261,0.014987,0.53502,0.050577,20,0.252886,0.404617
+Lapse1:forced,50,auc_accuracy_percent,blind,True,-4.343947,-5.693763,-3.023429,1.5e-05,20,0.000122,0.000168
+Lapse1:forced,200,auc_accuracy_percent,blind,True,-4.582031,-5.40642,-3.728648,2e-06,20,2.3e-05,2.3e-05
+Lapse1:forced_seconds,50,auc_accuracy_percent,two_choice,True,-1.052551,-2.939543,0.923041,0.319353,20,0.638706,1.0
+Lapse1:forced_seconds,200,auc_accuracy_percent,two_choice,True,-1.841879,-2.709903,-0.925563,0.001097,20,0.007236,0.010967
+Markov1,50,auc_accuracy_percent,rest_threshold,True,0.034834,-0.485496,0.598307,0.904423,20,1.0,1.0
+Markov1,200,auc_accuracy_percent,rest_threshold,True,-0.274671,-0.549878,-0.023424,0.060625,20,0.485001,0.424376
+Markov2,50,auc_accuracy_percent,rest_threshold,True,0.074118,-0.480861,0.655621,0.80674,20,1.0,1.0
+Markov2,200,auc_accuracy_percent,rest_threshold,True,-0.455128,-0.713162,-0.204244,0.003328,20,0.033283,0.029955
+None0,50,auc_accuracy_percent,blind,True,0.0,0.0,0.0,1.0,20,1.0,1.0
+None0,200,auc_accuracy_percent,blind,True,0.0,0.0,0.0,1.0,20,1.0,1.0

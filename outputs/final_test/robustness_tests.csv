@@ -1,0 +1,7 @@
+condition,rival,difference,ci_low,ci_high,p,pairs,p_holm
+FALCON_world,myopic,-10.643476,-13.851098,-7.555506,5e-05,500,0.0003
+Lapse_world,myopic,16.900637,11.018519,23.121615,5e-05,500,0.0003
+half_as_fast,myopic,16.910626,12.978364,20.952575,5e-05,500,0.0003
+stronger_fatigue,myopic,43.562567,37.259857,50.176088,5e-05,500,0.0003
+twice_as_fast,myopic,81.850979,73.421386,90.380662,5e-05,500,0.0003
+weaker_fatigue,myopic,38.370295,32.652471,44.419077,5e-05,500,0.0003

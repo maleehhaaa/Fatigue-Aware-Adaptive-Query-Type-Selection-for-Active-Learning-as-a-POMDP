@@ -1,0 +1,21 @@
+{
+  "controller": "qmdp",
+  "status": "provisional initial-study choice",
+  "completed_conditions": 28,
+  "full_grid_conditions": 7812,
+  "test_annotators_evaluated": false,
+  "final_test_images_evaluated": false,
+  "markov_h2_passes": 17,
+  "markov_h2_conditions": 17,
+  "falcon_h2_passes": 3,
+  "falcon_h2_conditions": 3,
+  "markov_planning_positive_intervals": 17,
+  "markov_planning_conditions": 17,
+  "no_fatigue_reward_difference_vs_best_baseline": 0.0,
+  "core_markov_planning_gap_grows_with_beta": true,
+  "falcon_planning_positive_intervals": 3,
+  "falcon_planning_conditions": 3,
+  "robustness_beats_myopic_positive_intervals": 4,
+  "robustness_conditions": 6,
+  "scope": "simulated information/time only; validation comparisons; no Stage-2 accuracy or final tests"
+}

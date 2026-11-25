@@ -1,0 +1,361 @@
+world,pause_seconds,recovery,horizon,fatigue,break_even_lam
+FALCON1,5.0,0.2,stage1,1,pause never pays at any lam tested
+FALCON1,5.0,0.2,stage1,2,pause never pays at any lam tested
+FALCON1,5.0,0.2,stage1,3,pause never pays at any lam tested
+FALCON1,5.0,0.2,stage1,4,pause never pays at any lam tested
+FALCON1,5.0,0.2,stage2_shift_start,1,pause never pays at any lam tested
+FALCON1,5.0,0.2,stage2_shift_start,2,pause never pays at any lam tested
+FALCON1,5.0,0.2,stage2_shift_start,3,pause never pays at any lam tested
+FALCON1,5.0,0.2,stage2_shift_start,4,pause never pays at any lam tested
+FALCON1,5.0,0.35,stage1,1,pause never pays at any lam tested
+FALCON1,5.0,0.35,stage1,2,pause never pays at any lam tested
+FALCON1,5.0,0.35,stage1,3,pause never pays at any lam tested
+FALCON1,5.0,0.35,stage1,4,pause never pays at any lam tested
+FALCON1,5.0,0.35,stage2_shift_start,1,pause never pays at any lam tested
+FALCON1,5.0,0.35,stage2_shift_start,2,pause never pays at any lam tested
+FALCON1,5.0,0.35,stage2_shift_start,3,pause never pays at any lam tested
+FALCON1,5.0,0.35,stage2_shift_start,4,pause never pays at any lam tested
+FALCON1,5.0,0.5,stage1,1,pause never pays at any lam tested
+FALCON1,5.0,0.5,stage1,2,pause never pays at any lam tested
+FALCON1,5.0,0.5,stage1,3,pause never pays at any lam tested
+FALCON1,5.0,0.5,stage1,4,pause never pays at any lam tested
+FALCON1,5.0,0.5,stage2_shift_start,1,pause never pays at any lam tested
+FALCON1,5.0,0.5,stage2_shift_start,2,pause never pays at any lam tested
+FALCON1,5.0,0.5,stage2_shift_start,3,pause never pays at any lam tested
+FALCON1,5.0,0.5,stage2_shift_start,4,pause never pays at any lam tested
+FALCON1,10.0,0.2,stage1,1,pause never pays at any lam tested
+FALCON1,10.0,0.2,stage1,2,pause never pays at any lam tested
+FALCON1,10.0,0.2,stage1,3,pause never pays at any lam tested
+FALCON1,10.0,0.2,stage1,4,pause never pays at any lam tested
+FALCON1,10.0,0.2,stage2_shift_start,1,pause never pays at any lam tested
+FALCON1,10.0,0.2,stage2_shift_start,2,pause never pays at any lam tested
+FALCON1,10.0,0.2,stage2_shift_start,3,pause never pays at any lam tested
+FALCON1,10.0,0.2,stage2_shift_start,4,pause never pays at any lam tested
+FALCON1,10.0,0.35,stage1,1,pause never pays at any lam tested
+FALCON1,10.0,0.35,stage1,2,pause never pays at any lam tested
+FALCON1,10.0,0.35,stage1,3,pause never pays at any lam tested
+FALCON1,10.0,0.35,stage1,4,pause never pays at any lam tested
+FALCON1,10.0,0.35,stage2_shift_start,1,pause never pays at any lam tested
+FALCON1,10.0,0.35,stage2_shift_start,2,pause never pays at any lam tested
+FALCON1,10.0,0.35,stage2_shift_start,3,pause never pays at any lam tested
+FALCON1,10.0,0.35,stage2_shift_start,4,pause never pays at any lam tested
+FALCON1,10.0,0.5,stage1,1,pause never pays at any lam tested
+FALCON1,10.0,0.5,stage1,2,pause never pays at any lam tested
+FALCON1,10.0,0.5,stage1,3,pause never pays at any lam tested
+FALCON1,10.0,0.5,stage1,4,pause never pays at any lam tested
+FALCON1,10.0,0.5,stage2_shift_start,1,pause never pays at any lam tested
+FALCON1,10.0,0.5,stage2_shift_start,2,pause never pays at any lam tested
+FALCON1,10.0,0.5,stage2_shift_start,3,pause never pays at any lam tested
+FALCON1,10.0,0.5,stage2_shift_start,4,pause never pays at any lam tested
+FALCON1,20.0,0.2,stage1,1,pause never pays at any lam tested
+FALCON1,20.0,0.2,stage1,2,pause never pays at any lam tested
+FALCON1,20.0,0.2,stage1,3,pause never pays at any lam tested
+FALCON1,20.0,0.2,stage1,4,pause never pays at any lam tested
+FALCON1,20.0,0.2,stage2_shift_start,1,pause never pays at any lam tested
+FALCON1,20.0,0.2,stage2_shift_start,2,pause never pays at any lam tested
+FALCON1,20.0,0.2,stage2_shift_start,3,pause never pays at any lam tested
+FALCON1,20.0,0.2,stage2_shift_start,4,pause never pays at any lam tested
+FALCON1,20.0,0.35,stage1,1,pause never pays at any lam tested
+FALCON1,20.0,0.35,stage1,2,pause never pays at any lam tested
+FALCON1,20.0,0.35,stage1,3,pause never pays at any lam tested
+FALCON1,20.0,0.35,stage1,4,pause never pays at any lam tested
+FALCON1,20.0,0.35,stage2_shift_start,1,pause never pays at any lam tested
+FALCON1,20.0,0.35,stage2_shift_start,2,pause never pays at any lam tested
+FALCON1,20.0,0.35,stage2_shift_start,3,pause never pays at any lam tested
+FALCON1,20.0,0.35,stage2_shift_start,4,pause never pays at any lam tested
+FALCON1,20.0,0.5,stage1,1,pause never pays at any lam tested
+FALCON1,20.0,0.5,stage1,2,pause never pays at any lam tested
+FALCON1,20.0,0.5,stage1,3,pause never pays at any lam tested
+FALCON1,20.0,0.5,stage1,4,pause never pays at any lam tested
+FALCON1,20.0,0.5,stage2_shift_start,1,pause never pays at any lam tested
+FALCON1,20.0,0.5,stage2_shift_start,2,pause never pays at any lam tested
+FALCON1,20.0,0.5,stage2_shift_start,3,pause never pays at any lam tested
+FALCON1,20.0,0.5,stage2_shift_start,4,pause never pays at any lam tested
+Markov0.5,5.0,0.2,stage1,1,pause pays at every lam tested
+Markov0.5,5.0,0.2,stage1,2,pause pays at every lam tested
+Markov0.5,5.0,0.2,stage1,3,pause pays at every lam tested
+Markov0.5,5.0,0.2,stage1,4,pause pays at every lam tested
+Markov0.5,5.0,0.2,stage2_shift_start,1,pause pays at every lam tested
+Markov0.5,5.0,0.2,stage2_shift_start,2,pause pays at every lam tested
+Markov0.5,5.0,0.2,stage2_shift_start,3,pause pays at every lam tested
+Markov0.5,5.0,0.2,stage2_shift_start,4,pause pays at every lam tested
+Markov0.5,5.0,0.35,stage1,1,pause pays at every lam tested
+Markov0.5,5.0,0.35,stage1,2,pause pays at every lam tested
+Markov0.5,5.0,0.35,stage1,3,pause pays at every lam tested
+Markov0.5,5.0,0.35,stage1,4,pause pays at every lam tested
+Markov0.5,5.0,0.35,stage2_shift_start,1,pause pays at every lam tested
+Markov0.5,5.0,0.35,stage2_shift_start,2,pause pays at every lam tested
+Markov0.5,5.0,0.35,stage2_shift_start,3,pause pays at every lam tested
+Markov0.5,5.0,0.35,stage2_shift_start,4,pause pays at every lam tested
+Markov0.5,5.0,0.5,stage1,1,pause pays at every lam tested
+Markov0.5,5.0,0.5,stage1,2,pause pays at every lam tested
+Markov0.5,5.0,0.5,stage1,3,pause pays at every lam tested
+Markov0.5,5.0,0.5,stage1,4,pause pays at every lam tested
+Markov0.5,5.0,0.5,stage2_shift_start,1,pause pays at every lam tested
+Markov0.5,5.0,0.5,stage2_shift_start,2,pause pays at every lam tested
+Markov0.5,5.0,0.5,stage2_shift_start,3,pause pays at every lam tested
+Markov0.5,5.0,0.5,stage2_shift_start,4,pause pays at every lam tested
+Markov0.5,10.0,0.2,stage1,1,pause pays at every lam tested
+Markov0.5,10.0,0.2,stage1,2,pause pays at every lam tested
+Markov0.5,10.0,0.2,stage1,3,pause pays at every lam tested
+Markov0.5,10.0,0.2,stage1,4,pause pays at every lam tested
+Markov0.5,10.0,0.2,stage2_shift_start,1,0.7370638351916176
+Markov0.5,10.0,0.2,stage2_shift_start,2,0.9639796615531275
+Markov0.5,10.0,0.2,stage2_shift_start,3,pause pays at every lam tested
+Markov0.5,10.0,0.2,stage2_shift_start,4,pause pays at every lam tested
+Markov0.5,10.0,0.35,stage1,1,pause pays at every lam tested
+Markov0.5,10.0,0.35,stage1,2,pause pays at every lam tested
+Markov0.5,10.0,0.35,stage1,3,pause pays at every lam tested
+Markov0.5,10.0,0.35,stage1,4,pause pays at every lam tested
+Markov0.5,10.0,0.35,stage2_shift_start,1,pause pays at every lam tested
+Markov0.5,10.0,0.35,stage2_shift_start,2,pause pays at every lam tested
+Markov0.5,10.0,0.35,stage2_shift_start,3,pause pays at every lam tested
+Markov0.5,10.0,0.35,stage2_shift_start,4,pause pays at every lam tested
+Markov0.5,10.0,0.5,stage1,1,pause pays at every lam tested
+Markov0.5,10.0,0.5,stage1,2,pause pays at every lam tested
+Markov0.5,10.0,0.5,stage1,3,pause pays at every lam tested
+Markov0.5,10.0,0.5,stage1,4,pause pays at every lam tested
+Markov0.5,10.0,0.5,stage2_shift_start,1,pause pays at every lam tested
+Markov0.5,10.0,0.5,stage2_shift_start,2,pause pays at every lam tested
+Markov0.5,10.0,0.5,stage2_shift_start,3,pause pays at every lam tested
+Markov0.5,10.0,0.5,stage2_shift_start,4,pause pays at every lam tested
+Markov0.5,20.0,0.2,stage1,1,0.8591958518789308
+Markov0.5,20.0,0.2,stage1,2,pause pays at every lam tested
+Markov0.5,20.0,0.2,stage1,3,pause pays at every lam tested
+Markov0.5,20.0,0.2,stage1,4,pause pays at every lam tested
+Markov0.5,20.0,0.2,stage2_shift_start,1,pause never pays at any lam tested
+Markov0.5,20.0,0.2,stage2_shift_start,2,pause never pays at any lam tested
+Markov0.5,20.0,0.2,stage2_shift_start,3,pause never pays at any lam tested
+Markov0.5,20.0,0.2,stage2_shift_start,4,pause never pays at any lam tested
+Markov0.5,20.0,0.35,stage1,1,pause pays at every lam tested
+Markov0.5,20.0,0.35,stage1,2,pause pays at every lam tested
+Markov0.5,20.0,0.35,stage1,3,pause pays at every lam tested
+Markov0.5,20.0,0.35,stage1,4,pause pays at every lam tested
+Markov0.5,20.0,0.35,stage2_shift_start,1,pause never pays at any lam tested
+Markov0.5,20.0,0.35,stage2_shift_start,2,pause never pays at any lam tested
+Markov0.5,20.0,0.35,stage2_shift_start,3,0.2940753676487423
+Markov0.5,20.0,0.35,stage2_shift_start,4,0.3625914983635039
+Markov0.5,20.0,0.5,stage1,1,pause pays at every lam tested
+Markov0.5,20.0,0.5,stage1,2,pause pays at every lam tested
+Markov0.5,20.0,0.5,stage1,3,pause pays at every lam tested
+Markov0.5,20.0,0.5,stage1,4,pause pays at every lam tested
+Markov0.5,20.0,0.5,stage2_shift_start,1,pause never pays at any lam tested
+Markov0.5,20.0,0.5,stage2_shift_start,2,0.4611606655960774
+Markov0.5,20.0,0.5,stage2_shift_start,3,0.5569742474010277
+Markov0.5,20.0,0.5,stage2_shift_start,4,pause pays at every lam tested
+Markov1,5.0,0.2,stage1,1,pause pays at every lam tested
+Markov1,5.0,0.2,stage1,2,pause pays at every lam tested
+Markov1,5.0,0.2,stage1,3,pause pays at every lam tested
+Markov1,5.0,0.2,stage1,4,pause pays at every lam tested
+Markov1,5.0,0.2,stage2_shift_start,1,pause pays at every lam tested
+Markov1,5.0,0.2,stage2_shift_start,2,pause pays at every lam tested
+Markov1,5.0,0.2,stage2_shift_start,3,pause pays at every lam tested
+Markov1,5.0,0.2,stage2_shift_start,4,pause pays at every lam tested
+Markov1,5.0,0.35,stage1,1,pause pays at every lam tested
+Markov1,5.0,0.35,stage1,2,pause pays at every lam tested
+Markov1,5.0,0.35,stage1,3,pause pays at every lam tested
+Markov1,5.0,0.35,stage1,4,pause pays at every lam tested
+Markov1,5.0,0.35,stage2_shift_start,1,pause pays at every lam tested
+Markov1,5.0,0.35,stage2_shift_start,2,pause pays at every lam tested
+Markov1,5.0,0.35,stage2_shift_start,3,pause pays at every lam tested
+Markov1,5.0,0.35,stage2_shift_start,4,pause pays at every lam tested
+Markov1,5.0,0.5,stage1,1,pause pays at every lam tested
+Markov1,5.0,0.5,stage1,2,pause pays at every lam tested
+Markov1,5.0,0.5,stage1,3,pause pays at every lam tested
+Markov1,5.0,0.5,stage1,4,pause pays at every lam tested
+Markov1,5.0,0.5,stage2_shift_start,1,pause pays at every lam tested
+Markov1,5.0,0.5,stage2_shift_start,2,pause pays at every lam tested
+Markov1,5.0,0.5,stage2_shift_start,3,pause pays at every lam tested
+Markov1,5.0,0.5,stage2_shift_start,4,pause pays at every lam tested
+Markov1,10.0,0.2,stage1,1,pause pays at every lam tested
+Markov1,10.0,0.2,stage1,2,pause pays at every lam tested
+Markov1,10.0,0.2,stage1,3,pause pays at every lam tested
+Markov1,10.0,0.2,stage1,4,pause pays at every lam tested
+Markov1,10.0,0.2,stage2_shift_start,1,0.7721644072881222
+Markov1,10.0,0.2,stage2_shift_start,2,0.9689044872004082
+Markov1,10.0,0.2,stage2_shift_start,3,pause pays at every lam tested
+Markov1,10.0,0.2,stage2_shift_start,4,pause pays at every lam tested
+Markov1,10.0,0.35,stage1,1,pause pays at every lam tested
+Markov1,10.0,0.35,stage1,2,pause pays at every lam tested
+Markov1,10.0,0.35,stage1,3,pause pays at every lam tested
+Markov1,10.0,0.35,stage1,4,pause pays at every lam tested
+Markov1,10.0,0.35,stage2_shift_start,1,pause pays at every lam tested
+Markov1,10.0,0.35,stage2_shift_start,2,pause pays at every lam tested
+Markov1,10.0,0.35,stage2_shift_start,3,pause pays at every lam tested
+Markov1,10.0,0.35,stage2_shift_start,4,pause pays at every lam tested
+Markov1,10.0,0.5,stage1,1,pause pays at every lam tested
+Markov1,10.0,0.5,stage1,2,pause pays at every lam tested
+Markov1,10.0,0.5,stage1,3,pause pays at every lam tested
+Markov1,10.0,0.5,stage1,4,pause pays at every lam tested
+Markov1,10.0,0.5,stage2_shift_start,1,pause pays at every lam tested
+Markov1,10.0,0.5,stage2_shift_start,2,pause pays at every lam tested
+Markov1,10.0,0.5,stage2_shift_start,3,pause pays at every lam tested
+Markov1,10.0,0.5,stage2_shift_start,4,pause pays at every lam tested
+Markov1,20.0,0.2,stage1,1,0.8842411587753594
+Markov1,20.0,0.2,stage1,2,pause pays at every lam tested
+Markov1,20.0,0.2,stage1,3,pause pays at every lam tested
+Markov1,20.0,0.2,stage1,4,pause pays at every lam tested
+Markov1,20.0,0.2,stage2_shift_start,1,pause never pays at any lam tested
+Markov1,20.0,0.2,stage2_shift_start,2,pause never pays at any lam tested
+Markov1,20.0,0.2,stage2_shift_start,3,pause never pays at any lam tested
+Markov1,20.0,0.2,stage2_shift_start,4,pause never pays at any lam tested
+Markov1,20.0,0.35,stage1,1,pause pays at every lam tested
+Markov1,20.0,0.35,stage1,2,pause pays at every lam tested
+Markov1,20.0,0.35,stage1,3,pause pays at every lam tested
+Markov1,20.0,0.35,stage1,4,pause pays at every lam tested
+Markov1,20.0,0.35,stage2_shift_start,1,pause never pays at any lam tested
+Markov1,20.0,0.35,stage2_shift_start,2,0.2679822426519166
+Markov1,20.0,0.35,stage2_shift_start,3,0.28431195117214314
+Markov1,20.0,0.35,stage2_shift_start,4,0.3614409409408641
+Markov1,20.0,0.5,stage1,1,pause pays at every lam tested
+Markov1,20.0,0.5,stage1,2,pause pays at every lam tested
+Markov1,20.0,0.5,stage1,3,pause pays at every lam tested
+Markov1,20.0,0.5,stage1,4,pause pays at every lam tested
+Markov1,20.0,0.5,stage2_shift_start,1,0.2994946062161328
+Markov1,20.0,0.5,stage2_shift_start,2,0.5032284084801881
+Markov1,20.0,0.5,stage2_shift_start,3,0.4665074379726288
+Markov1,20.0,0.5,stage2_shift_start,4,pause pays at every lam tested
+Markov2,5.0,0.2,stage1,1,pause pays at every lam tested
+Markov2,5.0,0.2,stage1,2,pause pays at every lam tested
+Markov2,5.0,0.2,stage1,3,pause pays at every lam tested
+Markov2,5.0,0.2,stage1,4,pause pays at every lam tested
+Markov2,5.0,0.2,stage2_shift_start,1,pause pays at every lam tested
+Markov2,5.0,0.2,stage2_shift_start,2,pause pays at every lam tested
+Markov2,5.0,0.2,stage2_shift_start,3,pause pays at every lam tested
+Markov2,5.0,0.2,stage2_shift_start,4,pause pays at every lam tested
+Markov2,5.0,0.35,stage1,1,pause pays at every lam tested
+Markov2,5.0,0.35,stage1,2,pause pays at every lam tested
+Markov2,5.0,0.35,stage1,3,pause pays at every lam tested
+Markov2,5.0,0.35,stage1,4,pause pays at every lam tested
+Markov2,5.0,0.35,stage2_shift_start,1,pause pays at every lam tested
+Markov2,5.0,0.35,stage2_shift_start,2,pause pays at every lam tested
+Markov2,5.0,0.35,stage2_shift_start,3,pause pays at every lam tested
+Markov2,5.0,0.35,stage2_shift_start,4,pause pays at every lam tested
+Markov2,5.0,0.5,stage1,1,pause pays at every lam tested
+Markov2,5.0,0.5,stage1,2,pause pays at every lam tested
+Markov2,5.0,0.5,stage1,3,pause pays at every lam tested
+Markov2,5.0,0.5,stage1,4,pause pays at every lam tested
+Markov2,5.0,0.5,stage2_shift_start,1,pause pays at every lam tested
+Markov2,5.0,0.5,stage2_shift_start,2,pause pays at every lam tested
+Markov2,5.0,0.5,stage2_shift_start,3,pause pays at every lam tested
+Markov2,5.0,0.5,stage2_shift_start,4,pause pays at every lam tested
+Markov2,10.0,0.2,stage1,1,pause pays at every lam tested
+Markov2,10.0,0.2,stage1,2,pause pays at every lam tested
+Markov2,10.0,0.2,stage1,3,pause pays at every lam tested
+Markov2,10.0,0.2,stage1,4,pause pays at every lam tested
+Markov2,10.0,0.2,stage2_shift_start,1,0.7971443609655926
+Markov2,10.0,0.2,stage2_shift_start,2,pause pays at every lam tested
+Markov2,10.0,0.2,stage2_shift_start,3,pause pays at every lam tested
+Markov2,10.0,0.2,stage2_shift_start,4,pause pays at every lam tested
+Markov2,10.0,0.35,stage1,1,pause pays at every lam tested
+Markov2,10.0,0.35,stage1,2,pause pays at every lam tested
+Markov2,10.0,0.35,stage1,3,pause pays at every lam tested
+Markov2,10.0,0.35,stage1,4,pause pays at every lam tested
+Markov2,10.0,0.35,stage2_shift_start,1,pause pays at every lam tested
+Markov2,10.0,0.35,stage2_shift_start,2,pause pays at every lam tested
+Markov2,10.0,0.35,stage2_shift_start,3,pause pays at every lam tested
+Markov2,10.0,0.35,stage2_shift_start,4,pause pays at every lam tested
+Markov2,10.0,0.5,stage1,1,pause pays at every lam tested
+Markov2,10.0,0.5,stage1,2,pause pays at every lam tested
+Markov2,10.0,0.5,stage1,3,pause pays at every lam tested
+Markov2,10.0,0.5,stage1,4,pause pays at every lam tested
+Markov2,10.0,0.5,stage2_shift_start,1,pause pays at every lam tested
+Markov2,10.0,0.5,stage2_shift_start,2,pause pays at every lam tested
+Markov2,10.0,0.5,stage2_shift_start,3,pause pays at every lam tested
+Markov2,10.0,0.5,stage2_shift_start,4,pause pays at every lam tested
+Markov2,20.0,0.2,stage1,1,0.9217960121978002
+Markov2,20.0,0.2,stage1,2,pause pays at every lam tested
+Markov2,20.0,0.2,stage1,3,pause pays at every lam tested
+Markov2,20.0,0.2,stage1,4,pause pays at every lam tested
+Markov2,20.0,0.2,stage2_shift_start,1,pause never pays at any lam tested
+Markov2,20.0,0.2,stage2_shift_start,2,pause never pays at any lam tested
+Markov2,20.0,0.2,stage2_shift_start,3,pause never pays at any lam tested
+Markov2,20.0,0.2,stage2_shift_start,4,pause never pays at any lam tested
+Markov2,20.0,0.35,stage1,1,pause pays at every lam tested
+Markov2,20.0,0.35,stage1,2,pause pays at every lam tested
+Markov2,20.0,0.35,stage1,3,pause pays at every lam tested
+Markov2,20.0,0.35,stage1,4,pause pays at every lam tested
+Markov2,20.0,0.35,stage2_shift_start,1,0.2911153334969657
+Markov2,20.0,0.35,stage2_shift_start,2,0.2918574998342662
+Markov2,20.0,0.35,stage2_shift_start,3,0.27430827737416275
+Markov2,20.0,0.35,stage2_shift_start,4,0.35143032886008163
+Markov2,20.0,0.5,stage1,1,pause pays at every lam tested
+Markov2,20.0,0.5,stage1,2,pause pays at every lam tested
+Markov2,20.0,0.5,stage1,3,pause pays at every lam tested
+Markov2,20.0,0.5,stage1,4,pause pays at every lam tested
+Markov2,20.0,0.5,stage2_shift_start,1,0.5217176466245883
+Markov2,20.0,0.5,stage2_shift_start,2,0.3825332945297366
+Markov2,20.0,0.5,stage2_shift_start,3,0.45143044315108727
+Markov2,20.0,0.5,stage2_shift_start,4,pause pays at every lam tested
+Markov3,5.0,0.2,stage1,1,pause pays at every lam tested
+Markov3,5.0,0.2,stage1,2,pause pays at every lam tested
+Markov3,5.0,0.2,stage1,3,pause pays at every lam tested
+Markov3,5.0,0.2,stage1,4,pause pays at every lam tested
+Markov3,5.0,0.2,stage2_shift_start,1,pause pays at every lam tested
+Markov3,5.0,0.2,stage2_shift_start,2,pause pays at every lam tested
+Markov3,5.0,0.2,stage2_shift_start,3,pause pays at every lam tested
+Markov3,5.0,0.2,stage2_shift_start,4,pause pays at every lam tested
+Markov3,5.0,0.35,stage1,1,pause pays at every lam tested
+Markov3,5.0,0.35,stage1,2,pause pays at every lam tested
+Markov3,5.0,0.35,stage1,3,pause pays at every lam tested
+Markov3,5.0,0.35,stage1,4,pause pays at every lam tested
+Markov3,5.0,0.35,stage2_shift_start,1,pause pays at every lam tested
+Markov3,5.0,0.35,stage2_shift_start,2,pause pays at every lam tested
+Markov3,5.0,0.35,stage2_shift_start,3,pause pays at every lam tested
+Markov3,5.0,0.35,stage2_shift_start,4,pause pays at every lam tested
+Markov3,5.0,0.5,stage1,1,pause pays at every lam tested
+Markov3,5.0,0.5,stage1,2,pause pays at every lam tested
+Markov3,5.0,0.5,stage1,3,pause pays at every lam tested
+Markov3,5.0,0.5,stage1,4,pause pays at every lam tested
+Markov3,5.0,0.5,stage2_shift_start,1,pause pays at every lam tested
+Markov3,5.0,0.5,stage2_shift_start,2,pause pays at every lam tested
+Markov3,5.0,0.5,stage2_shift_start,3,pause pays at every lam tested
+Markov3,5.0,0.5,stage2_shift_start,4,pause pays at every lam tested
+Markov3,10.0,0.2,stage1,1,pause pays at every lam tested
+Markov3,10.0,0.2,stage1,2,pause pays at every lam tested
+Markov3,10.0,0.2,stage1,3,pause pays at every lam tested
+Markov3,10.0,0.2,stage1,4,pause pays at every lam tested
+Markov3,10.0,0.2,stage2_shift_start,1,0.8155689800602527
+Markov3,10.0,0.2,stage2_shift_start,2,pause pays at every lam tested
+Markov3,10.0,0.2,stage2_shift_start,3,pause pays at every lam tested
+Markov3,10.0,0.2,stage2_shift_start,4,pause pays at every lam tested
+Markov3,10.0,0.35,stage1,1,pause pays at every lam tested
+Markov3,10.0,0.35,stage1,2,pause pays at every lam tested
+Markov3,10.0,0.35,stage1,3,pause pays at every lam tested
+Markov3,10.0,0.35,stage1,4,pause pays at every lam tested
+Markov3,10.0,0.35,stage2_shift_start,1,pause pays at every lam tested
+Markov3,10.0,0.35,stage2_shift_start,2,pause pays at every lam tested
+Markov3,10.0,0.35,stage2_shift_start,3,pause pays at every lam tested
+Markov3,10.0,0.35,stage2_shift_start,4,pause pays at every lam tested
+Markov3,10.0,0.5,stage1,1,pause pays at every lam tested
+Markov3,10.0,0.5,stage1,2,pause pays at every lam tested
+Markov3,10.0,0.5,stage1,3,pause pays at every lam tested
+Markov3,10.0,0.5,stage1,4,pause pays at every lam tested
+Markov3,10.0,0.5,stage2_shift_start,1,pause pays at every lam tested
+Markov3,10.0,0.5,stage2_shift_start,2,pause pays at every lam tested
+Markov3,10.0,0.5,stage2_shift_start,3,pause pays at every lam tested
+Markov3,10.0,0.5,stage2_shift_start,4,pause pays at every lam tested
+Markov3,20.0,0.2,stage1,1,1.0002665229743954
+Markov3,20.0,0.2,stage1,2,pause pays at every lam tested
+Markov3,20.0,0.2,stage1,3,pause pays at every lam tested
+Markov3,20.0,0.2,stage1,4,pause pays at every lam tested
+Markov3,20.0,0.2,stage2_shift_start,1,pause never pays at any lam tested
+Markov3,20.0,0.2,stage2_shift_start,2,pause never pays at any lam tested
+Markov3,20.0,0.2,stage2_shift_start,3,pause never pays at any lam tested
+Markov3,20.0,0.2,stage2_shift_start,4,pause never pays at any lam tested
+Markov3,20.0,0.35,stage1,1,pause pays at every lam tested
+Markov3,20.0,0.35,stage1,2,pause pays at every lam tested
+Markov3,20.0,0.35,stage1,3,pause pays at every lam tested
+Markov3,20.0,0.35,stage1,4,pause pays at every lam tested
+Markov3,20.0,0.35,stage2_shift_start,1,0.32402364483705737
+Markov3,20.0,0.35,stage2_shift_start,2,0.3021813050318011
+Markov3,20.0,0.35,stage2_shift_start,3,0.30331080710351976
+Markov3,20.0,0.35,stage2_shift_start,4,pause pays at every lam tested
+Markov3,20.0,0.5,stage1,1,pause pays at every lam tested
+Markov3,20.0,0.5,stage1,2,pause pays at every lam tested
+Markov3,20.0,0.5,stage1,3,pause pays at every lam tested
+Markov3,20.0,0.5,stage1,4,pause pays at every lam tested
+Markov3,20.0,0.5,stage2_shift_start,1,0.5408506981976683
+Markov3,20.0,0.5,stage2_shift_start,2,0.39670034746801575
+Markov3,20.0,0.5,stage2_shift_start,3,0.7365826224312082
+Markov3,20.0,0.5,stage2_shift_start,4,pause pays at every lam tested

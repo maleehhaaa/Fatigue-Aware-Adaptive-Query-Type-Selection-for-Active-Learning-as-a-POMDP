@@ -1,0 +1,6 @@
+{
+  "rank correlation, average accuracy vs answers after the lapse (answers, 50 labels)": -0.6951219512195123,
+  "rank correlation, average accuracy vs answers after the lapse (answers, 200 labels)": -0.6707317073170732,
+  "rank correlation, average accuracy vs answers after the lapse (seconds, 50 labels)": -0.3780487804878049,
+  "rank correlation, average accuracy vs answers after the lapse (seconds, 200 labels)": -0.1951219512195122
+}

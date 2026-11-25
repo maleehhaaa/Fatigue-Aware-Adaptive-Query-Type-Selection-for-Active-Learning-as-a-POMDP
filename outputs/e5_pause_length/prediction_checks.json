@@ -1,0 +1,69 @@
+{
+  "P1": {
+    "qmdp_pauses_per_run": {
+      "10s_reference": 11.32,
+      "20s_A_fixed_per_pause": 0.0,
+      "20s_B_fixed_per_second": 0.0,
+      "5s_A_fixed_per_pause": 50.78,
+      "5s_B_fixed_per_second": 67.03
+    },
+    "holds": true
+  },
+  "P2": {
+    "qmdp_minus_verify_mean_over_markov_groups": {
+      "10s_reference": 1.386,
+      "20s_A_fixed_per_pause": 0.351,
+      "20s_B_fixed_per_second": 0.351,
+      "5s_A_fixed_per_pause": 2.415,
+      "5s_B_fixed_per_second": 1.967
+    },
+    "holds": true
+  },
+  "P3": {
+    "qmdp_minus_verify_20s_A": 0.351,
+    "holds": true
+  },
+  "P4": {
+    "falcon_qmdp_pauses_per_session": {
+      "10s_reference": 0.0,
+      "20s_A_fixed_per_pause": 0.0,
+      "20s_B_fixed_per_second": 0.0,
+      "5s_A_fixed_per_pause": 0.0,
+      "5s_B_fixed_per_second": 0.0
+    },
+    "holds": true
+  },
+  "P5": {
+    "qmdp_minus_rest_5s_A": [
+      {
+        "world": "Markov_beta_1",
+        "seed_size": 50,
+        "qmdp_minus_rival": 0.507,
+        "ci_low": 0.079,
+        "ci_high": 0.88
+      },
+      {
+        "world": "Markov_beta_1",
+        "seed_size": 200,
+        "qmdp_minus_rival": 0.156,
+        "ci_low": -0.335,
+        "ci_high": 0.658
+      },
+      {
+        "world": "Markov_beta_2",
+        "seed_size": 50,
+        "qmdp_minus_rival": 0.53,
+        "ci_low": 0.081,
+        "ci_high": 0.944
+      },
+      {
+        "world": "Markov_beta_2",
+        "seed_size": 200,
+        "qmdp_minus_rival": -0.264,
+        "ci_low": -0.679,
+        "ci_high": 0.175
+      }
+    ],
+    "holds": false
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "folder": "outputs/dqn_training/5453e3e198/seed-42",
+  "options": {
+    "rounds": 80,
+    "parallel_sessions": 32,
+    "steps": 150,
+    "seed": 42,
+    "training_people": "train only",
+    "hidden_layers": [
+      128,
+      128
+    ],
+    "lambda": 1.0,
+    "calibration_sha256": "1133095fd0088326186c83db3c005a9ec5b230a2f47ab5266667c8dcaa7ed698",
+    "training_code_sha256": "9d5b9588c1550a431a1f1c42075e71bebae04210cca85ab7bc2ef9e50d3ae143",
+    "contexts_sha256": "2e708a8291c3394a27d26a3efc4b2ececdc3af744a056defc1435007f1cd7ad9"
+  }
+}

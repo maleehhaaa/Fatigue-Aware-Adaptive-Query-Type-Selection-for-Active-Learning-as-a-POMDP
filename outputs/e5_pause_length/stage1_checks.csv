@@ -1,0 +1,6 @@
+setting,markov_h2_passes,markov_cases,qmdp_minus_greedy_beta_0.5_1_2_3,gap_grows_with_beta,falcon_qmdp_pauses_per_session
+10s_reference,4,4,"[50.17, 46.76, 42.89, 42.23]",False,0.0
+20s_A_fixed_per_pause,4,4,"[44.3, 40.39, 35.02, 34.34]",False,0.0
+20s_B_fixed_per_second,4,4,"[47.84, 43.47, 38.38, 39.37]",False,0.0
+5s_A_fixed_per_pause,4,4,"[62.03, 58.21, 52.97, 54.57]",False,0.0
+5s_B_fixed_per_second,4,4,"[49.14, 45.26, 39.24, 40.23]",False,0.0

@@ -1,0 +1,11 @@
+model,beta,seed_size,baseline,first,second,metric,difference,ci_low,ci_high,pairs
+FALCON,1,50,myopic,qmdp,myopic,auc_accuracy_percent,0.6150337882148136,-0.4107917295334837,1.6580950228962656,10
+FALCON,1,200,myopic,qmdp,myopic,auc_accuracy_percent,0.17076910048862998,-0.2433405145454085,0.5793834242827233,10
+Lapse,1,50,blind,qmdp,blind,auc_accuracy_percent,-5.763400999550741,-7.42089770852235,-3.9913136686508004,10
+Lapse,1,200,blind,qmdp,blind,auc_accuracy_percent,-4.673828510958518,-5.4466708713282665,-3.8473561021440315,10
+Markov,1,50,rest_threshold,qmdp,rest_threshold,auc_accuracy_percent,-0.346560354418493,-0.7997276837743439,0.11531220681683121,10
+Markov,1,200,rest_threshold,qmdp,rest_threshold,auc_accuracy_percent,-0.5739458735264009,-1.149133486294975,0.04789607525322187,10
+Markov,2,50,rest_threshold,qmdp,rest_threshold,auc_accuracy_percent,0.5247091364664825,-0.037212467225779984,1.0836129625425692,10
+Markov,2,200,rest_threshold,qmdp,rest_threshold,auc_accuracy_percent,-0.5226518886383402,-0.9715460726301234,0.011150653690098359,10
+None,0,50,blind,qmdp,blind,auc_accuracy_percent,0.0,0.0,0.0,10
+None,0,200,blind,qmdp,blind,auc_accuracy_percent,0.0,0.0,0.0,10

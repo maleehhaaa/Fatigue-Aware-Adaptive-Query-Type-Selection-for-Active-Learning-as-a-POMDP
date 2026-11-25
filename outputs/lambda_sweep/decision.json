@@ -1,0 +1,45 @@
+{
+  "chosen_lambda": 1.0,
+  "theory_lambda": 0.9578672907359302,
+  "per_policy": {
+    "qmdp": {
+      "best_mean_lambda": 0.875,
+      "rule_choice": 1.0,
+      "candidates": [
+        0.625,
+        0.75,
+        0.875,
+        1.0,
+        1.25
+      ]
+    },
+    "myopic": {
+      "best_mean_lambda": 1.0,
+      "rule_choice": 1.0,
+      "candidates": [
+        0.875,
+        1.0,
+        1.25
+      ]
+    },
+    "rest_threshold": {
+      "best_mean_lambda": 1.0,
+      "rule_choice": 1.0,
+      "candidates": [
+        0.875,
+        1.0,
+        1.25
+      ]
+    },
+    "blind": {
+      "best_mean_lambda": 1.25,
+      "rule_choice": 1.25,
+      "candidates": [
+        1.25
+      ]
+    }
+  },
+  "rule": "Primary metric: QMDP average accuracy over 0-2400 s, 200 starting labels, training annotators, tuning seeds 100-109, averaged with equal weight over None, Markov beta=1, Markov beta=2 and FALCON beta=1. Lapse is reported but not used. Step 1: for each lambda, the paired difference to the best lambda (per seed, averaged over the four worlds) gets a bootstrap 95% interval (4,000 resamples, seed 42). Step 2: candidates are all lambdas whose interval reaches 0 (not clearly worse than the best). Step 3: among candidates, choose the one closest to the Stage-1 theory value (median Dinkelbach fixed point over the four worlds); ties go to the smaller lambda. The same lambda is then used by every lambda-aware policy.",
+  "rule_written_utc": "2026-11-21T08:27:37.714401+00:00",
+  "analysed_utc": "2026-11-21T08:46:44.839336+00:00"
+}

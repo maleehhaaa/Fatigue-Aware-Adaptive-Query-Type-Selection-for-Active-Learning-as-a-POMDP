@@ -1,0 +1,11 @@
+model,beta,seed_size,baseline,first,second,metric,difference,ci_low,ci_high,pairs
+FALCON,1,50,two_choice,qmdp,two_choice,auc_accuracy_percent,-0.5824604165318277,-1.5450389862384273,0.6923712738317592,10
+FALCON,1,200,verify,qmdp,verify,auc_accuracy_percent,-0.8864564700618871,-1.4021759458703327,-0.4027304498141439,10
+Lapse,1,50,rest_threshold,qmdp,rest_threshold,auc_accuracy_percent,0.07870917201721425,-0.6934273115069483,0.7568564218780086,10
+Lapse,1,200,rest_threshold,qmdp,rest_threshold,auc_accuracy_percent,-0.6215671742817989,-1.079340023542504,-0.16169671980659078,10
+Markov,1,50,verify,qmdp,verify,auc_accuracy_percent,0.07905339192749068,-1.7373136999860104,2.3334998633100166,10
+Markov,1,200,verify,qmdp,verify,auc_accuracy_percent,-0.3493833532822606,-0.9381503952865724,0.3061674980882541,10
+Markov,2,50,two_choice,qmdp,two_choice,auc_accuracy_percent,0.6206182906543077,-0.5350925846109085,1.910698118636558,10
+Markov,2,200,verify,qmdp,verify,auc_accuracy_percent,-0.17312831227203276,-0.7446123300427548,0.36612782973126345,10
+None,0,50,verify,qmdp,verify,auc_accuracy_percent,-0.7662814486816529,-1.5436559044152167,0.22588153383850323,10
+None,0,200,verify,qmdp,verify,auc_accuracy_percent,-1.1592283086869457,-1.6685541912974948,-0.6812061059934067,10

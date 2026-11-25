@@ -1,0 +1,57 @@
+case,step,from,to,reward_difference,ci_low,ci_high
+FALCON_beta_1,pauses added to always-verify,verify,verify_with_qmdp_pause,0.0,0.0,0.0
+FALCON_beta_1,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,0.0,0.0,0.0
+FALCON_beta_1,format choice added,qmdp_verify_pause,qmdp,0.811,0.148,1.474
+FALCON_beta_1,pausing added inside QMDP,qmdp_no_pause,qmdp,0.0,0.0,0.0
+FALCON_beta_1,format choice without pausing,verify,qmdp_no_pause,0.811,0.148,1.474
+FALCON_beta_1,total,verify,qmdp,0.811,0.148,1.474
+FALCON_beta_1,QMDP vs greedy,myopic,qmdp,43.443,41.368,45.581
+FALCON_beta_1,QMDP vs greedy-plus-rest,rest_threshold,qmdp,47.439,44.015,51.178
+Lapse_beta_1,pauses added to always-verify,verify,verify_with_qmdp_pause,1.99,-1.401,5.432
+Lapse_beta_1,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,2.953,1.587,4.417
+Lapse_beta_1,format choice added,qmdp_verify_pause,qmdp,-28.955,-32.171,-25.791
+Lapse_beta_1,pausing added inside QMDP,qmdp_no_pause,qmdp,-15.569,-19.422,-11.926
+Lapse_beta_1,format choice without pausing,verify,qmdp_no_pause,-8.443,-9.546,-7.381
+Lapse_beta_1,total,verify,qmdp,-24.012,-27.976,-20.215
+Lapse_beta_1,QMDP vs greedy,myopic,qmdp,28.703,22.705,34.675
+Lapse_beta_1,QMDP vs greedy-plus-rest,rest_threshold,qmdp,18.425,14.121,22.703
+Markov_beta_0.5,pauses added to always-verify,verify,verify_with_qmdp_pause,8.635,5.763,11.484
+Markov_beta_0.5,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,0.835,-0.384,2.133
+Markov_beta_0.5,format choice added,qmdp_verify_pause,qmdp,1.111,-2.807,4.889
+Markov_beta_0.5,pausing added inside QMDP,qmdp_no_pause,qmdp,8.017,3.792,11.938
+Markov_beta_0.5,format choice without pausing,verify,qmdp_no_pause,2.564,1.268,3.761
+Markov_beta_0.5,total,verify,qmdp,10.581,6.188,14.677
+Markov_beta_0.5,QMDP vs greedy,myopic,qmdp,50.17,43.937,56.531
+Markov_beta_0.5,QMDP vs greedy-plus-rest,rest_threshold,qmdp,37.203,32.516,42.175
+Markov_beta_1,pauses added to always-verify,verify,verify_with_qmdp_pause,9.111,6.151,12.005
+Markov_beta_1,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,0.675,-0.585,1.991
+Markov_beta_1,format choice added,qmdp_verify_pause,qmdp,1.28,-2.661,5.106
+Markov_beta_1,pausing added inside QMDP,qmdp_no_pause,qmdp,8.217,4.005,12.224
+Markov_beta_1,format choice without pausing,verify,qmdp_no_pause,2.849,1.644,4.018
+Markov_beta_1,total,verify,qmdp,11.066,6.704,15.143
+Markov_beta_1,QMDP vs greedy,myopic,qmdp,46.756,40.571,53.215
+Markov_beta_1,QMDP vs greedy-plus-rest,rest_threshold,qmdp,33.089,28.685,37.586
+Markov_beta_2,pauses added to always-verify,verify,verify_with_qmdp_pause,10.567,7.34,13.871
+Markov_beta_2,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,0.312,-0.824,1.55
+Markov_beta_2,format choice added,qmdp_verify_pause,qmdp,2.239,-1.681,5.916
+Markov_beta_2,pausing added inside QMDP,qmdp_no_pause,qmdp,10.695,6.357,14.985
+Markov_beta_2,format choice without pausing,verify,qmdp_no_pause,2.423,1.284,3.538
+Markov_beta_2,total,verify,qmdp,13.118,8.728,17.363
+Markov_beta_2,QMDP vs greedy,myopic,qmdp,42.889,37.121,48.997
+Markov_beta_2,QMDP vs greedy-plus-rest,rest_threshold,qmdp,33.894,29.276,38.671
+Markov_beta_3,pauses added to always-verify,verify,verify_with_qmdp_pause,10.924,7.618,14.247
+Markov_beta_3,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,0.232,-1.047,1.548
+Markov_beta_3,format choice added,qmdp_verify_pause,qmdp,1.201,-2.35,4.684
+Markov_beta_3,pausing added inside QMDP,qmdp_no_pause,qmdp,9.888,5.538,14.283
+Markov_beta_3,format choice without pausing,verify,qmdp_no_pause,2.469,1.503,3.445
+Markov_beta_3,total,verify,qmdp,12.357,7.893,16.87
+Markov_beta_3,QMDP vs greedy,myopic,qmdp,42.229,36.304,48.454
+Markov_beta_3,QMDP vs greedy-plus-rest,rest_threshold,qmdp,30.45,25.508,35.569
+no_fatigue,pauses added to always-verify,verify,verify_with_qmdp_pause,0.0,0.0,0.0
+no_fatigue,pauses re-planned for verify-only,verify_with_qmdp_pause,qmdp_verify_pause,0.0,0.0,0.0
+no_fatigue,format choice added,qmdp_verify_pause,qmdp,35.966,33.127,38.816
+no_fatigue,pausing added inside QMDP,qmdp_no_pause,qmdp,0.0,0.0,0.0
+no_fatigue,format choice without pausing,verify,qmdp_no_pause,35.966,33.127,38.816
+no_fatigue,total,verify,qmdp,35.966,33.127,38.816
+no_fatigue,QMDP vs greedy,myopic,qmdp,0.0,0.0,0.0
+no_fatigue,QMDP vs greedy-plus-rest,rest_threshold,qmdp,0.0,0.0,0.0

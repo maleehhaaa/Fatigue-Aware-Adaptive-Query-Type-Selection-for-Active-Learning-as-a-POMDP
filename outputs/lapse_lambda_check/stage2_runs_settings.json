@@ -1,0 +1,67 @@
+{
+  "worlds": {
+    "answers": {
+      "model": "Lapse",
+      "beta": 1,
+      "distribution": "constant",
+      "recovery": 0.35,
+      "signal": 1.0,
+      "verify_time": 0.35,
+      "choice_time": 0.6,
+      "speed": 1.0,
+      "steps": 150,
+      "lam": 1.0,
+      "lapse_dependence": 0.0,
+      "falcon_recovery": false,
+      "fatigue_scale": 0.1,
+      "pause_seconds": 10.0,
+      "lapse_mode": "forced",
+      "lapse_onset_min": 100.0,
+      "lapse_onset_max": 300.0
+    },
+    "seconds": {
+      "model": "Lapse",
+      "beta": 1,
+      "distribution": "constant",
+      "recovery": 0.35,
+      "signal": 1.0,
+      "verify_time": 0.35,
+      "choice_time": 0.6,
+      "speed": 1.0,
+      "steps": 150,
+      "lam": 1.0,
+      "lapse_dependence": 0.0,
+      "falcon_recovery": false,
+      "fatigue_scale": 0.1,
+      "pause_seconds": 10.0,
+      "lapse_mode": "forced_seconds",
+      "lapse_onset_min": 75.0,
+      "lapse_onset_max": 310.0
+    }
+  },
+  "grid": [
+    0.25,
+    0.5,
+    0.625,
+    0.75,
+    0.875,
+    1.0,
+    1.25
+  ],
+  "seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109
+  ],
+  "seed_size": 200,
+  "annotators": "train (E1b lapse lambda check, tuning only)",
+  "src_sha256": "9d5b9588c1550a431a1f1c42075e71bebae04210cca85ab7bc2ef9e50d3ae143",
+  "finished_utc": "2026-11-22T15:42:34.205828+00:00"
+}

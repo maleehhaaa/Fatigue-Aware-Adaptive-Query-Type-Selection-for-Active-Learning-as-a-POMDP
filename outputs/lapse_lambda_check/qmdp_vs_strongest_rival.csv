@@ -1,0 +1,15 @@
+world,lam,rival,qmdp_minus_rival,ci_low,ci_high
+answers,0.25,rest_threshold,-0.343,-0.778,0.02
+answers,0.5,rest_threshold,-0.495,-0.986,0.01
+answers,0.625,rest_threshold,-1.211,-1.857,-0.565
+answers,0.75,blind,-1.843,-2.568,-0.997
+answers,0.875,blind,-3.877,-5.024,-2.718
+answers,1.0,blind,-4.051,-5.052,-3.132
+answers,1.25,two_choice,-4.636,-5.256,-3.874
+seconds,0.25,two_choice,-2.538,-3.569,-1.593
+seconds,0.5,two_choice,-2.329,-3.388,-1.355
+seconds,0.625,two_choice,-1.792,-3.085,-0.479
+seconds,0.75,two_choice,-1.742,-3.064,-0.541
+seconds,0.875,two_choice,-1.62,-2.612,-0.648
+seconds,1.0,two_choice,-0.793,-1.688,0.118
+seconds,1.25,two_choice,-1.482,-2.338,-0.36

@@ -1,0 +1,41 @@
+world,rival,rival_lambda,setting,qmdp_minus_rival,ci_low,ci_high
+FALCON1,myopic,1.0,same lambda,-0.141,-0.723,0.441
+FALCON1,myopic,1.0,own best lambda,-0.141,-0.723,0.441
+FALCON1,rest_threshold,1.0,same lambda,-0.001,-0.657,0.62
+FALCON1,rest_threshold,1.0,own best lambda,-0.001,-0.657,0.62
+FALCON1,blind,1.0,same lambda,0.513,-0.097,1.094
+FALCON1,blind,1.25,own best lambda,-0.05,-0.414,0.337
+FALCON1,verify,,fixed format,-0.17,-0.717,0.344
+FALCON1,two_choice,,fixed format,0.343,-0.055,0.725
+Lapse1,myopic,1.0,same lambda,-2.757,-3.921,-1.694
+Lapse1,myopic,1.0,own best lambda,-2.757,-3.921,-1.694
+Lapse1,rest_threshold,1.0,same lambda,-1.0,-2.179,0.136
+Lapse1,rest_threshold,1.0,own best lambda,-1.0,-2.179,0.136
+Lapse1,blind,1.0,same lambda,-4.051,-5.052,-3.132
+Lapse1,blind,1.25,own best lambda,-2.833,-3.739,-1.959
+Lapse1,verify,,fixed format,-0.617,-1.301,0.025
+Lapse1,two_choice,,fixed format,-3.855,-4.868,-2.967
+Markov1,myopic,1.0,same lambda,0.312,-0.297,0.918
+Markov1,myopic,1.0,own best lambda,0.312,-0.297,0.918
+Markov1,rest_threshold,1.0,same lambda,-0.165,-0.704,0.442
+Markov1,rest_threshold,1.0,own best lambda,-0.165,-0.704,0.442
+Markov1,blind,1.0,same lambda,1.47,0.726,2.23
+Markov1,blind,1.25,own best lambda,0.439,-0.174,1.084
+Markov1,verify,,fixed format,0.258,-0.307,0.809
+Markov1,two_choice,,fixed format,0.72,0.037,1.352
+Markov2,myopic,1.0,same lambda,0.38,-0.031,0.759
+Markov2,myopic,1.0,own best lambda,0.38,-0.031,0.759
+Markov2,rest_threshold,1.0,same lambda,-0.35,-0.826,0.135
+Markov2,rest_threshold,1.0,own best lambda,-0.35,-0.826,0.135
+Markov2,blind,1.0,same lambda,2.177,1.687,2.63
+Markov2,blind,1.25,own best lambda,1.159,0.649,1.618
+Markov2,verify,,fixed format,0.532,-0.009,1.037
+Markov2,two_choice,,fixed format,0.912,0.206,1.639
+None,myopic,1.0,same lambda,0.0,0.0,0.0
+None,myopic,1.0,own best lambda,0.0,0.0,0.0
+None,rest_threshold,1.0,same lambda,0.0,0.0,0.0
+None,rest_threshold,1.0,own best lambda,0.0,0.0,0.0
+None,blind,1.0,same lambda,0.0,0.0,0.0
+None,blind,1.25,own best lambda,-0.129,-0.521,0.333
+None,verify,,fixed format,-0.047,-0.486,0.422
+None,two_choice,,fixed format,0.131,-0.248,0.551

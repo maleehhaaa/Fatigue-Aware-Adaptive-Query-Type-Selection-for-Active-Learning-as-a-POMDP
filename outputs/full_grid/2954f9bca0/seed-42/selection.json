@@ -1,0 +1,22 @@
+{
+  "controller": "qmdp",
+  "status": "full-grid validation selection (ProjectBrief 8.4)",
+  "completed_conditions": 7812,
+  "full_grid_conditions": 7812,
+  "scores": {
+    "dqn": {
+      "mean": -202.0152,
+      "sem": 3.5948
+    },
+    "grid": {
+      "mean": -222.7551,
+      "sem": 3.7598
+    },
+    "qmdp": {
+      "mean": -88.9587,
+      "sem": 2.9782
+    }
+  },
+  "test_annotators_evaluated": false,
+  "final_test_images_evaluated": false
+}

@@ -1,0 +1,15 @@
+# local
+.venv/
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+
+# downloaded automatically (notebooks 01-02)
+data/cifar10/
+data/pretrained/
+data/cifar10h/
+
+# per-run caches (rebuilt by the notebooks and scripts)
+outputs/stage1/
+outputs/stage2_development/
+outputs/full_grid/*/seed-*/candidate_sessions.npz

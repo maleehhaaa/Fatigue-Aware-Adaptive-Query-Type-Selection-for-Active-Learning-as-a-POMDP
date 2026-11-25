@@ -1,0 +1,22 @@
+{
+  "scenario": {
+    "model": "Markov",
+    "beta": 2,
+    "distribution": "constant",
+    "recovery": 0.35,
+    "signal": 1.0,
+    "verify_time": 0.35,
+    "choice_time": 0.6,
+    "speed": 1.0,
+    "steps": 150,
+    "lam": 1.0,
+    "lapse_dependence": 0.0,
+    "falcon_recovery": false,
+    "fatigue_scale": 0.1,
+    "pause_seconds": 10.0,
+    "lapse_mode": "forced",
+    "lapse_onset_min": 20.0,
+    "lapse_onset_max": 100.0
+  },
+  "episodes": 500
+}

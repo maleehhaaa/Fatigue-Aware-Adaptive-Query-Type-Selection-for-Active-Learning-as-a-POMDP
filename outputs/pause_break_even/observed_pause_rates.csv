@@ -1,0 +1,49 @@
+source,world,policy,lam,pause_rate_overall,true_F_when_paused,pause_rate est F < 0.5,pause_rate 0.5-1.5,pause_rate 1.5-2.5,pause_rate > 2.5,share of turns est F < 0.5,share of turns 0.5-1.5,share of turns 1.5-2.5,share of turns > 2.5
+"sweep (training people, seeds 100-109)",Lapse1,qmdp,0.25,0.0323,1.2279,0.0,0.0742,0.0407,0.0018,0.4501,0.3548,0.1447,0.0504
+"sweep (training people, seeds 100-109)",Lapse1,qmdp,0.5,0.0183,1.3045,0.0,0.0452,0.0241,0.0007,0.4132,0.3141,0.1686,0.1041
+"sweep (training people, seeds 100-109)",Lapse1,qmdp,0.625,0.0133,1.1637,0.0,0.0313,0.0108,0.0112,0.385,0.3242,0.1857,0.1051
+"sweep (training people, seeds 100-109)",Lapse1,qmdp,0.75,0.011,1.3684,0.0,0.0218,0.012,0.0192,0.3895,0.3064,0.2138,0.0903
+"sweep (training people, seeds 100-109)",Lapse1,qmdp,0.875,0.0102,1.6715,0.0,0.0139,0.0156,0.0262,0.374,0.3322,0.2019,0.0918
+"sweep (training people, seeds 100-109)",Lapse1,qmdp,1.0,0.0084,1.5525,0.0,0.0081,0.0156,0.0297,0.3572,0.3394,0.2359,0.0675
+"sweep (training people, seeds 100-109)",Lapse1,qmdp,1.25,0.0065,1.8936,0.0,0.0029,0.0144,0.0267,0.3298,0.3604,0.2306,0.0793
+"sweep (training people, seeds 100-109)",Lapse1,rest_threshold,0.25,0.0717,1.0131,0.0,0.177,1.0,,0.6131,0.3829,0.004,0.0
+"sweep (training people, seeds 100-109)",Lapse1,rest_threshold,0.5,0.061,0.9678,0.0,0.1498,1.0,,0.6125,0.3841,0.0034,0.0
+"sweep (training people, seeds 100-109)",Lapse1,rest_threshold,0.625,0.0525,0.8414,0.0,0.1365,1.0,,0.6308,0.3668,0.0025,0.0
+"sweep (training people, seeds 100-109)",Lapse1,rest_threshold,0.75,0.0506,0.8954,0.0,0.1411,1.0,,0.6566,0.3409,0.0025,0.0
+"sweep (training people, seeds 100-109)",Lapse1,rest_threshold,0.875,0.0254,1.3023,0.0,0.0,1.0,1.0,0.3436,0.631,0.0254,0.0001
+"sweep (training people, seeds 100-109)",Lapse1,rest_threshold,1.0,0.0211,1.3297,0.0,0.0,1.0,,0.3652,0.6137,0.0211,0.0
+"sweep (training people, seeds 100-109)",Lapse1,rest_threshold,1.25,0.0182,1.2551,0.0,0.0,1.0,,0.388,0.5938,0.0182,0.0
+"sweep (training people, seeds 100-109)",Markov1,qmdp,0.25,0.0275,1.2888,0.0,0.0677,0.0344,0.0072,0.4931,0.3394,0.1214,0.0461
+"sweep (training people, seeds 100-109)",Markov1,qmdp,0.5,0.0142,1.3489,0.0,0.0317,0.0205,0.009,0.4336,0.3151,0.1646,0.0868
+"sweep (training people, seeds 100-109)",Markov1,qmdp,0.625,0.0117,1.3559,0.0,0.024,0.0106,0.0157,0.3797,0.3563,0.1935,0.0706
+"sweep (training people, seeds 100-109)",Markov1,qmdp,0.75,0.0103,1.5514,0.0,0.0185,0.0115,0.0265,0.3927,0.3259,0.2104,0.0711
+"sweep (training people, seeds 100-109)",Markov1,qmdp,0.875,0.0078,1.6647,0.0,0.0102,0.0144,0.0228,0.4038,0.3252,0.1975,0.0735
+"sweep (training people, seeds 100-109)",Markov1,qmdp,1.0,0.0066,1.8108,0.0,0.0054,0.0123,0.0295,0.3416,0.358,0.2413,0.0591
+"sweep (training people, seeds 100-109)",Markov1,qmdp,1.25,0.0053,2.1488,0.0,0.0019,0.0136,0.0233,0.3486,0.3717,0.1991,0.0806
+"sweep (training people, seeds 100-109)",Markov1,rest_threshold,0.25,0.0551,1.1595,0.0,0.1704,1.0,,0.6906,0.3066,0.0028,0.0
+"sweep (training people, seeds 100-109)",Markov1,rest_threshold,0.5,0.0472,1.1876,0.0,0.1652,1.0,,0.7296,0.2674,0.003,0.0
+"sweep (training people, seeds 100-109)",Markov1,rest_threshold,0.625,0.0394,1.0748,0.0,0.1443,1.0,1.0,0.7366,0.2618,0.0016,0.0001
+"sweep (training people, seeds 100-109)",Markov1,rest_threshold,0.75,0.0337,1.0838,0.0,0.1482,1.0,1.0,0.7837,0.2144,0.0017,0.0002
+"sweep (training people, seeds 100-109)",Markov1,rest_threshold,0.875,0.0205,1.711,0.0,0.0,1.0,1.0,0.3651,0.6145,0.0204,0.0
+"sweep (training people, seeds 100-109)",Markov1,rest_threshold,1.0,0.0174,1.7229,0.0,0.0,1.0,1.0,0.3722,0.6104,0.0174,0.0
+"sweep (training people, seeds 100-109)",Markov1,rest_threshold,1.25,0.0153,1.6263,0.0,0.0,1.0,1.0,0.3591,0.6256,0.0153,0.0
+"sweep (training people, seeds 100-109)",Markov2,qmdp,0.25,0.0283,1.2387,0.0,0.0842,0.025,0.0018,0.5378,0.2993,0.1203,0.0425
+"sweep (training people, seeds 100-109)",Markov2,qmdp,0.5,0.0132,1.2255,0.0,0.0374,0.0105,0.0098,0.4631,0.2818,0.1867,0.0684
+"sweep (training people, seeds 100-109)",Markov2,qmdp,0.625,0.0119,1.3872,0.0,0.0259,0.011,0.0228,0.4258,0.3271,0.1849,0.0622
+"sweep (training people, seeds 100-109)",Markov2,qmdp,0.75,0.011,1.4739,0.0,0.0214,0.0125,0.0269,0.4207,0.3058,0.2027,0.0708
+"sweep (training people, seeds 100-109)",Markov2,qmdp,0.875,0.0076,1.6647,0.0,0.0099,0.0131,0.029,0.408,0.3393,0.1968,0.0558
+"sweep (training people, seeds 100-109)",Markov2,qmdp,1.0,0.007,1.8875,0.0,0.0063,0.0134,0.0345,0.3659,0.3747,0.2052,0.0542
+"sweep (training people, seeds 100-109)",Markov2,qmdp,1.25,0.0055,1.8504,0.0,0.0028,0.0146,0.0232,0.3639,0.3688,0.2061,0.0613
+"sweep (training people, seeds 100-109)",Markov2,rest_threshold,0.25,0.0536,1.1449,0.0,0.1538,1.0,1.0,0.6691,0.3277,0.0031,0.0001
+"sweep (training people, seeds 100-109)",Markov2,rest_threshold,0.5,0.0474,1.1766,0.0,0.1663,1.0,,0.7254,0.2725,0.0021,0.0
+"sweep (training people, seeds 100-109)",Markov2,rest_threshold,0.625,0.0362,1.154,0.0,0.1525,1.0,1.0,0.7766,0.2209,0.0024,0.0002
+"sweep (training people, seeds 100-109)",Markov2,rest_threshold,0.75,0.0321,1.1188,0.0,0.1446,1.0,,0.7869,0.2116,0.0015,0.0
+"sweep (training people, seeds 100-109)",Markov2,rest_threshold,0.875,0.0207,1.6908,0.0,0.0,1.0,1.0,0.3078,0.6715,0.0206,0.0001
+"sweep (training people, seeds 100-109)",Markov2,rest_threshold,1.0,0.0248,1.0353,0.0,0.1293,1.0,,0.815,0.1839,0.0011,0.0
+"sweep (training people, seeds 100-109)",Markov2,rest_threshold,1.25,0.0163,1.6488,0.0,0.0,1.0,1.0,0.3592,0.6246,0.0162,0.0001
+development study (ea603cfc82),Lapse1,qmdp,1.0,0.0067,1.4,0.0,0.0093,0.0105,0.0147,0.3527,0.3234,0.2587,0.0652
+development study (ea603cfc82),Lapse1,rest_threshold,1.0,0.0194,1.1247,0.0,0.0,1.0,1.0,0.3167,0.6639,0.0193,0.0
+development study (ea603cfc82),Markov1,qmdp,1.0,0.0052,1.5,0.0,0.0058,0.0102,0.0145,0.3416,0.4004,0.203,0.055
+development study (ea603cfc82),Markov1,rest_threshold,1.0,0.0152,1.5527,0.0,0.0,1.0,1.0,0.3324,0.6524,0.0152,0.0
+development study (ea603cfc82),Markov2,qmdp,1.0,0.005,1.48,0.0,0.0063,0.0079,0.0207,0.3567,0.3942,0.2062,0.0429
+development study (ea603cfc82),Markov2,rest_threshold,1.0,0.0238,0.9164,0.0,0.1321,1.0,,0.824,0.1754,0.0006,0.0

@@ -1,0 +1,25 @@
+{
+  "what": "Copy of the teammate's lambda = 0.75 Stage-1 study (outputs/study/b461149a97/seed-42), made on a Windows laptop on 20 Nov 2026 (\"AML Project 2.1: lambda check and full rerun at lambda = 0.75\").",
+  "why": "scripts/run_e4_headroom.py compares lambda 0.25, 0.75 and 1.0; this copy lets it run from inside the project instead of reading the separate aml_lambda075 folder.",
+  "copied_from": "aml_lambda075/outputs/study/b461149a97/seed-42 (the teammate project folder next to advanced_ml)",
+  "copied_utc": "2026-11-22T16:50:56.302912+00:00",
+  "note": "Produced on a different machine with the pre-freeze lambda = 0.75 code; compare patterns only, not exact numbers. Files are byte-identical to the source (sha256 below).",
+  "files_sha256": {
+    "01_controller_selection.png": "ddacdd1b008a4bfc093622fe83eabe4ecc05d839606b1576198d83cbdf41e77e",
+    "02_fatigue_story_comparisons.png": "0326ecdbd72ec78bea53483a1909912add2894660dfa7996a4b483283c130ed5",
+    "03_planning_advantages.png": "c99279bc08b9eb5357abe618a14487ccfa9edf70979b4f0e00082c2a2bb6e8ae",
+    "04_sensitivity_checks.png": "b90652e73810affe21e892854014b7aee7f46ec2dcc75a742e04f20115869a31",
+    "05_robustness.png": "560ce5797b6d7c38765ca558a719aa37732d0f50fce4607dbe6c6989e10f46b3",
+    "06_information_time_tradeoff.png": "c8fbfc5a729da3ee8971d6cf7f08e6cecd3e9199a5e67bc18bfe6fd9d7ca7ec0",
+    "all_validation_episodes.csv.gz": "3db403f75a52a2afeafd57e2d70b5b9dd75eec2610b215f01962a1f5c306d0bb",
+    "assessment.json": "c05b2443c566fce603fe47f274e10f3f46cde04cb25ab93c51f45969fcf3bdb2",
+    "condition_summary.csv": "22f9fe5626daca77453029b300d0b54a67aeea05f737fc577aba3c23cb809d1a",
+    "config.json": "ccd26b83c7862b2e833b59291088295d0b4f5b48ebc6aafc9750487b043536dd",
+    "full_grid_manifest.csv": "668f0084332b38c0cb8de8cba960aa2958175803b7eaba6093de6f060e42c0ab",
+    "information_time_frontier.csv": "bb66b5fe8fe6dde0a6c872c193c9fa5e61558a70ebbebbdeb1537057886d2f46",
+    "paired_comparisons.csv": "ab9039cc18a74e15f1644e6cb2320d80be8382e909e0058e74dee48013f83717",
+    "robustness_episodes.csv.gz": "de3df95d68f24cb48bc9cf4cc224bd1b79905ec11567d92abb43bddb3a0c591d",
+    "robustness_paired_comparisons.csv": "6492862c3262d6d7f297ed5506838c29ef5c632a3670de5f355f7c3a00e1bfd0",
+    "selection.json": "1cd19e9a807cfa572be2a90ee9d5bd1c5d3599cbebd62adc90c89670781cc4cd"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "written_utc": "2026-11-21T08:27:37.714401+00:00",
+  "rule": "Primary metric: QMDP average accuracy over 0-2400 s, 200 starting labels, training annotators, tuning seeds 100-109, averaged with equal weight over None, Markov beta=1, Markov beta=2 and FALCON beta=1. Lapse is reported but not used. Step 1: for each lambda, the paired difference to the best lambda (per seed, averaged over the four worlds) gets a bootstrap 95% interval (4,000 resamples, seed 42). Step 2: candidates are all lambdas whose interval reaches 0 (not clearly worse than the best). Step 3: among candidates, choose the one closest to the Stage-1 theory value (median Dinkelbach fixed point over the four worlds); ties go to the smaller lambda. The same lambda is then used by every lambda-aware policy.",
+  "theory_lambda": 0.9578672907359302,
+  "fixed_points": {
+    "None": {
+      "fixed_point": 1.347677346953768,
+      "path": [
+        0.25,
+        1.1192916779285504,
+        1.3080961548520975,
+        1.3448863292756212,
+        1.347677346953768
+      ]
+    },
+    "Markov1": {
+      "fixed_point": 0.9319202180635029,
+      "path": [
+        0.25,
+        0.7093819371084045,
+        0.8627570186313553,
+        0.9173432427700196,
+        0.9363437048573395,
+        0.9319202180635029
+      ]
+    },
+    "Markov2": {
+      "fixed_point": 0.9199855944007297,
+      "path": [
+        0.25,
+        0.6992963413995472,
+        0.8590246292666288,
+        0.9043657964982768,
+        0.9105516618963855,
+        0.9156828862729808,
+        0.9199855944007297
+      ]
+    },
+    "FALCON1": {
+      "fixed_point": 0.9838143634083577,
+      "path": [
+        0.25,
+        0.5883024875134365,
+        0.8130235841645626,
+        0.9395070267006376,
+        0.9790823703486707,
+        0.9838143634083577
+      ]
+    },
+    "Lapse1": {
+      "fixed_point": 0.8790741488364187,
+      "path": [
+        0.25,
+        0.6816906026580102,
+        0.8152129149658306,
+        0.8643743367375654,
+        0.8751070140192609,
+        0.8790741488364187
+      ]
+    }
+  },
+  "stage2_grid": [
+    0.25,
+    0.5,
+    0.625,
+    0.75,
+    0.875,
+    1.0,
+    1.25
+  ],
+  "tune_seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109
+  ],
+  "selection_worlds": [
+    "None",
+    "Markov1",
+    "Markov2",
+    "FALCON1"
+  ],
+  "report_only_worlds": [
+    "Lapse1"
+  ],
+  "environment": {
+    "python": "3.12.16",
+    "platform": "macOS-27.2.1-arm64-arm-64bit",
+    "numpy": "2.5.5",
+    "pandas": "3.1.1",
+    "torch": "2.15.0",
+    "src_sha256": "d4292fd545e8927f18b570e9b82c7c3be8ebfb9cf02592adb5cb04306710bc01"
+  }
+}

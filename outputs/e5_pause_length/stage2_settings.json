@@ -1,0 +1,63 @@
+{
+  "settings": [
+    [
+      "10s_reference",
+      10.0,
+      0.35
+    ],
+    [
+      "5s_A_fixed_per_pause",
+      5.0,
+      0.35
+    ],
+    [
+      "5s_B_fixed_per_second",
+      5.0,
+      0.1938
+    ],
+    [
+      "20s_A_fixed_per_pause",
+      20.0,
+      0.35
+    ],
+    [
+      "20s_B_fixed_per_second",
+      20.0,
+      0.5775
+    ]
+  ],
+  "rest_thresholds": {
+    "10s_reference / Markov_beta_1": 1.5,
+    "10s_reference / Markov_beta_2": 1.0,
+    "10s_reference / Lapse_beta_1": 1.5,
+    "5s_A_fixed_per_pause / Markov_beta_1": 1.0,
+    "5s_A_fixed_per_pause / Markov_beta_2": 1.0,
+    "5s_A_fixed_per_pause / Lapse_beta_1": 1.0,
+    "5s_B_fixed_per_second / Markov_beta_1": 1.5,
+    "5s_B_fixed_per_second / Markov_beta_2": 1.5,
+    "5s_B_fixed_per_second / Lapse_beta_1": 1.5,
+    "20s_A_fixed_per_pause / Markov_beta_1": 2.5,
+    "20s_A_fixed_per_pause / Markov_beta_2": 2.5,
+    "20s_A_fixed_per_pause / Lapse_beta_1": 2.5,
+    "20s_B_fixed_per_second / Markov_beta_1": 2.0,
+    "20s_B_fixed_per_second / Markov_beta_2": 2.0,
+    "20s_B_fixed_per_second / Lapse_beta_1": 2.0
+  },
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "seed_sizes": [
+    50,
+    200
+  ],
+  "annotators": "validation (development)"
+}

@@ -1,0 +1,5 @@
+onset,seed_size,rival,qmdp_minus_rival,ci_low,ci_high
+answers,50,blind,-5.763,-7.447,-3.978
+answers,200,blind,-4.674,-5.43,-3.855
+seconds,50,two_choice,-1.162,-3.205,1.433
+seconds,200,two_choice,-1.699,-2.547,-0.882

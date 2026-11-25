@@ -1,0 +1,85 @@
+{
+  "P1": {
+    "qmdp_auc_low_high": [
+      74.872,
+      69.25
+    ],
+    "qmdp_minus_two_choice_low": {
+      "world": "answers",
+      "lam": 0.25,
+      "rival": "two_choice",
+      "qmdp_minus_rival": 0.987,
+      "ci_low": 0.24,
+      "ci_high": 1.778
+    },
+    "qmdp_minus_two_choice_1.0": {
+      "world": "answers",
+      "lam": 1.0,
+      "rival": "two_choice",
+      "qmdp_minus_rival": -3.855,
+      "ci_low": -4.868,
+      "ci_high": -2.967
+    },
+    "holds": true
+  },
+  "P2": {
+    "answers": {
+      "answers_low_high": [
+        1047.0,
+        2155.3
+      ],
+      "after_lapse_low_high": [
+        267.2,
+        1325.7
+      ],
+      "holds": true
+    },
+    "seconds": {
+      "answers_low_high": [
+        784.0,
+        2188.0
+      ],
+      "after_lapse_low_high": [
+        478.7,
+        1197.2
+      ],
+      "holds": true
+    },
+    "holds": true
+  },
+  "P3": {
+    "drop_answers": 5.6228541127859115,
+    "drop_seconds": -1.0561219593845919,
+    "answers_minus_seconds": 6.678976072170504,
+    "ci_low": 5.28500364132219,
+    "ci_high": 8.269823241687572,
+    "holds": true
+  },
+  "P4": {
+    "strongest_at_low": {
+      "world": "seconds",
+      "rival": "two_choice",
+      "qmdp_minus_rival": -2.538,
+      "ci_low": -3.569,
+      "ci_high": -1.593
+    },
+    "strongest_at_1.0": {
+      "world": "seconds",
+      "rival": "two_choice",
+      "qmdp_minus_rival": -0.793,
+      "ci_low": -1.688,
+      "ci_high": 0.118
+    },
+    "holds": false
+  },
+  "P5": {
+    "strongest_at_1.0": {
+      "world": "seconds",
+      "rival": "two_choice",
+      "qmdp_minus_rival": -0.793,
+      "ci_low": -1.688,
+      "ci_high": 0.118
+    },
+    "holds": true
+  }
+}

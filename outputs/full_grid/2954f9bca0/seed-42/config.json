@@ -1,0 +1,27 @@
+{
+  "cases": 7812,
+  "episodes": 500,
+  "seed": 42,
+  "policies": [
+    "full",
+    "two_choice",
+    "verify",
+    "random",
+    "alternating",
+    "exp_decay",
+    "gap_workload",
+    "blind",
+    "myopic",
+    "rest_threshold",
+    "qmdp",
+    "qmdp_fixed",
+    "grid",
+    "dqn",
+    "oracle"
+  ],
+  "src_sha256": "9d5b9588c1550a431a1f1c42075e71bebae04210cca85ab7bc2ef9e50d3ae143",
+  "dqn_folder": "outputs/dqn_training/5453e3e198/seed-42",
+  "dqn_sha256": "1a5a16c5c3562a227d96b2c77ce5d78b8b2b01faa6abc92c77513c217adcd996",
+  "contexts_sha256": "2e708a8291c3394a27d26a3efc4b2ececdc3af744a056defc1435007f1cd7ad9",
+  "rule": "ProjectBrief 8.4 via src.eval.study.select_controller(full=True)"
+}

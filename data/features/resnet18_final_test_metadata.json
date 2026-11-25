@@ -1,0 +1,8 @@
+{
+  "weights": "ResNet18_Weights.IMAGENET1K_V1",
+  "preprocessing": "ImageClassification(\n    crop_size=[224]\n    resize_size=[256]\n    mean=[0.485, 0.456, 0.406]\n    std=[0.229, 0.224, 0.225]\n    interpolation=InterpolationMode.BILINEAR\n)",
+  "image_split_sha256": "69b06484395291f470cdfc12ad7102bb059215866f09b0ff4af7ef533b4284de",
+  "device": "mps",
+  "reproduction_check_max_relative_difference": 0.0,
+  "written_utc": "2026-11-22T10:57:28.573007+00:00"
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "label": "lambda_0.25",
+    "folder": "outputs/study/68ff499a2c/seed-42",
+    "note": "Mac, 20 Nov rerun (pre-set lambda)",
+    "sessions": 500
+  },
+  {
+    "label": "lambda_0.75",
+    "folder": "outputs/imported/aml_lambda075/study/b461149a97/seed-42",
+    "note": "Windows (teammate), 20 Nov; a different machine, compare patterns only",
+    "sessions": 500
+  },
+  {
+    "label": "lambda_1.0",
+    "folder": "outputs/study/3585ddc504/seed-42",
+    "note": "Mac, 21 Nov rerun (chosen lambda)",
+    "sessions": 500
+  }
+]

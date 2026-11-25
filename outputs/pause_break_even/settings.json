@@ -1,0 +1,30 @@
+{
+  "worlds": [
+    "Markov0.5",
+    "Markov1",
+    "Markov2",
+    "Markov3",
+    "FALCON1"
+  ],
+  "lambdas": [
+    0.25,
+    0.5,
+    0.75,
+    0.875,
+    1.0,
+    1.25
+  ],
+  "pauses": [
+    5.0,
+    10.0,
+    20.0
+  ],
+  "recoveries": [
+    0.2,
+    0.35,
+    0.5
+  ],
+  "contexts": "Stage-1 contexts (notebook 04)",
+  "population": "training people only",
+  "horizons": "stage1 = 150 steps; stage2 = 600 s / pause seconds, capped at 150"
+}

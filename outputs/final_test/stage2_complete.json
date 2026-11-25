@@ -1,0 +1,12 @@
+{
+  "runs": 2400,
+  "rest_thresholds": {
+    "None0": 1.0,
+    "Markov1": 1.5,
+    "Markov2": 1.0,
+    "FALCON1": 3.0,
+    "Lapse1:forced": 1.5,
+    "Lapse1:forced_seconds": 2.0
+  },
+  "finished_utc": "2026-11-22T11:17:57.475537+00:00"
+}

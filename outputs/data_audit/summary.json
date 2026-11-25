@@ -1,0 +1,8 @@
+{
+  "development_answers":246895.0,
+  "training_people":1542.0,
+  "development_images":8000.0,
+  "accuracy_percent":94.9116020981,
+  "median_response_seconds":1.49,
+  "clipped_times":190.0
+}
